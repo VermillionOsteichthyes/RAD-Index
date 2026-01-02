@@ -1,0 +1,697 @@
+/* 1. VARIABLES - Consistent with home page */
+:root {
+    --bg: #09090b;             /* Main background */
+    --bg-card: #18181b;        /* Lighter background for elements */
+    --border: #3f3f46;         /* Border color */
+    --text: #ffffff;           /* Main text color */
+    --text-secondary: #d4d4d8; /* Secondary text color */
+    --accent: #c9c9c9;         /* Accent color */
+}
+
+/* 2. GLOBAL RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', system-ui, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 3. NAVBAR STYLING - Same as home page */
+.navbar {
+    background-color: var(--bg);
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: var(--text);
+}
+
+.search-input {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    width: 250px;
+    outline: none;
+}
+
+.search-input:focus {
+    border-color: var(--accent);
+}
+
+/* 4. MAIN CONTAINER */
+.container {
+    padding: 2rem;
+    flex: 1;
+    max-width: 88rem;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* 5. LEADERBOARD HEADER */
+.leaderboard-header {
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.title-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.leaderboard-header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text);
+    margin: 0;
+}
+
+.data-info {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.data-range {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+.fireteam-size {
+    margin-left: 1rem;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+.search-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 1rem;
+    align-items: start;
+}
+
+.search-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    max-width: 500px;
+}
+
+.filters-column {
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.leaderboard-search {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 1rem;
+    background-color: var(--bg-card);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.leaderboard-search:focus {
+    border-color: var(--accent);
+}
+
+.leaderboard-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rows-control {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.rows-input {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    width: 65px;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.rows-input:focus {
+    border-color: var(--accent);
+}
+
+.rows-label {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.nav-button {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.2s;
+    outline: none;
+}
+
+.nav-button:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-color: var(--accent);
+}
+
+.nav-button:active {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.nav-button:disabled:hover {
+    background-color: var(--bg-card);
+    border-color: var(--border);
+}
+
+.page-range {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+/* 6. LEADERBOARD */
+.leaderboard {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.leaderboard-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid var(--border);
+    transition: background-color 0.2s;
+}
+
+.leaderboard-row:last-child {
+    border-bottom: none;
+}
+
+/* Alternate row colors */
+.leaderboard-row:nth-child(even):not(.header-row) {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.leaderboard-row:nth-child(odd):not(.header-row) {
+    background-color: transparent;
+}
+
+.leaderboard-row:hover:not(.header-row) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.header-row {
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    color: var(--text-secondary);
+}
+
+.rank-player {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex: 1;
+}
+
+.rank-header,
+.player-header {
+    color: var(--text-secondary);
+}
+
+.rank {
+    min-width: 3rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.player {
+    color: var(--text);
+    font-weight: 500;
+}
+
+.stat-value {
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/* 7. FOOTER STYLING - Same as home page */
+.footer {
+    border-top: 1px solid var(--border);
+    padding: 1.5rem;
+    margin-top: auto;
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 72rem;
+    margin: 0 auto;
+}
+
+/* 8. FILTER STYLING */
+.active-filters-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.active-filters-label {
+    color: var(--text);
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.active-filters-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.active-filter-bubble {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.375rem 0.75rem;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    font-size: 0.875rem;
+    color: var(--text);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.active-filter-bubble:hover {
+    background-color: rgba(220, 38, 38, 0.2);
+    border-color: #dc2626;
+    color: #fca5a5;
+}
+
+.active-filter-bubble .filter-text {
+    flex: 1;
+}
+
+.active-filter-bubble .filter-remove {
+    font-size: 1.25rem;
+    line-height: 1;
+    font-weight: bold;
+    color: var(--text-secondary);
+    transition: color 0.2s;
+}
+
+.active-filter-bubble:hover .filter-remove {
+    color: #fca5a5;
+}
+
+.filter-divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 0;
+}
+
+.filter-toggle-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter-toggle-btn {
+    background: none;
+    border: none;
+    color: var(--text);
+    font-size: 0.95rem;
+    cursor: pointer;
+    padding: 0.5rem 0;
+    transition: color 0.2s;
+    text-align: left;
+}
+
+.filter-toggle-btn:hover {
+    color: var(--accent);
+}
+
+.filter-apply-btn {
+    background-color: var(--accent);
+    color: var(--bg);
+    border: 1px solid var(--accent);
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0.5rem 1.25rem;
+    transition: all 0.2s;
+    outline: none;
+}
+
+.filter-apply-btn:hover {
+    background-color: rgba(201, 201, 201, 0.9);
+    border-color: rgba(201, 201, 201, 0.9);
+}
+
+.filter-categories-grid {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    gap: 1rem;
+    margin-top: 0.5rem;
+    transition: opacity 0.2s, max-height 0.3s;
+    align-items: start;
+}
+
+/* Filter Category Column justifies center in the grid */
+.filter-category-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.filter-category-label {
+    color: var(--text);
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.filter-options-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* Set different widths for each filter category */
+.filter-options-list[data-category="raids"],
+.filter-options-list[data-category="dungeons"] {
+    min-width: 160px;
+}
+
+.filter-options-list[data-category="mode"],
+.filter-options-list[data-category="type"],
+.filter-options-list[data-category="time-period"],
+.filter-options-list[data-category="platform"] {
+    min-width: 120px;
+}
+
+.filter-options-list[data-category="fireteam-size"] {
+    min-width: 60px;
+}
+
+.available-filter-bubble {
+    padding: 0.5rem 0.75rem;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    font-size: 0.875rem;
+    color: var(--text);
+    cursor: pointer;
+    transition: all 0.2s;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.available-filter-bubble:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-color: var(--accent);
+}
+
+/* Glow effect for active type filter when hovering over another type filter */
+.active-filter-bubble.type-filter-will-replace {
+    background-color: rgba(220, 38, 38, 0.2);
+    border-color: #dc2626;
+    color: #fca5a5;
+    box-shadow: 0 0 8px rgba(220, 38, 38, 0.4);
+}
+
+.active-filter-bubble.type-filter-will-replace .filter-remove {
+    color: #fca5a5;
+}
+
+/* 9. SEASONAL FILTER MODAL STYLING */
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    animation: fadeIn 0.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.modal-container {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.modal-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.modal-header h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text);
+    margin: 0;
+}
+
+.modal-content {
+    padding: 1.5rem;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.season-bubbles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 0.75rem;
+}
+
+.season-bubble {
+    padding: 0.75rem 1rem;
+    background-color: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    font-size: 0.875rem;
+    color: var(--text);
+    cursor: pointer;
+    transition: all 0.2s;
+    text-align: center;
+    user-select: none;
+}
+
+.season-bubble:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-color: var(--accent);
+}
+
+.season-bubble.selected {
+    background-color: rgba(201, 201, 201, 0.2);
+    border-color: var(--accent);
+    color: var(--accent);
+    font-weight: 500;
+}
+
+.modal-footer {
+    padding: 1.5rem;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.75rem;
+}
+
+.modal-button {
+    padding: 0.625rem 1.25rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    outline: none;
+    font-weight: 500;
+}
+
+.modal-button-apply {
+    background-color: var(--accent);
+    color: var(--bg);
+    border-color: var(--accent);
+}
+
+.modal-button-apply:hover {
+    background-color: rgba(201, 201, 201, 0.9);
+}
+
+.modal-button-cancel,
+.modal-button-clear {
+    background-color: var(--bg-card);
+    color: var(--text);
+}
+
+.modal-button-cancel:hover,
+.modal-button-clear:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-color: var(--accent);
+}
+
+.modal-button-clear {
+    margin-right: auto;
+}
+
+/* Custom Date Filter Modal Styling */
+.date-selection-section {
+    margin-bottom: 1.5rem;
+}
+
+.date-selection-section:last-of-type {
+    margin-bottom: 1rem;
+}
+
+.date-section-label {
+    display: block;
+    color: var(--text);
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+}
+
+.date-dropdowns-group {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.date-dropdown {
+    flex: 1;
+    padding: 0.625rem 0.75rem;
+    background-color: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text);
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    outline: none;
+}
+
+.date-dropdown:hover {
+    border-color: var(--accent);
+}
+
+.date-dropdown:focus {
+    border-color: var(--accent);
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.date-dropdown option {
+    background-color: var(--bg-card);
+    color: var(--text);
+}
+
+.validation-message {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    border-radius: 6px;
+    font-size: 0.875rem;
+}
+
+.validation-error {
+    background-color: rgba(220, 38, 38, 0.1);
+    border: 1px solid rgba(220, 38, 38, 0.3);
+    color: #fca5a5;
+}
+
+.modal-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.modal-button:disabled:hover {
+    background-color: var(--accent);
+    border-color: var(--accent);
+}
+

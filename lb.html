@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salvation's Edge Full Clears - RADIndex</title>
+    <link rel="stylesheet" href="lb.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">RADIndex</div>
+      <div class="search-container">
+        <input
+          type="text"
+          placeholder="Search for a player..."
+          class="search-input"
+        />
+      </div>
+    </nav>
+
+    <main class="container">
+      <div class="leaderboard-header">
+        <div class="title-section">
+          <h1>Salvation's Edge Master Full Clears</h1>
+          <div class="data-info">
+            <span class="data-range">Season 12</span>
+            <span class="fireteam-size">Fireteam Size: 3</span>
+          </div>
+        </div>
+        <div class="search-row">
+          <div class="search-column">
+            <input
+              type="text"
+              class="leaderboard-search"
+              placeholder="Search for a player..."
+            />
+            <div class="leaderboard-navigation">
+              <div class="nav-left">
+                <button class="nav-button">&lt;</button>
+                <button class="nav-button">&gt;</button>
+                <span class="page-range">1-10</span>
+              </div>
+              <div class="rows-control">
+                <input
+                  type="number"
+                  class="rows-input"
+                  value="10"
+                  min="1"
+                />
+                <span class="rows-label">rows/page</span>
+              </div>
+            </div>
+          </div>
+          <div class="filters-column">
+            <!-- Active Filters Section -->
+            <div class="active-filters-section">
+              <div class="active-filters-label">Active Filters:</div>
+              <div class="active-filters-list" id="activeFiltersList">
+                <!-- <div class="active-filter-bubble" data-category="raids" data-value="Salvations edge">
+                  <span class="filter-text">Salvations Edge</span>
+                  <span class="filter-remove">×</span>
+                </div>
+                <div class="active-filter-bubble" data-category="mode" data-value="Master">
+                  <span class="filter-text">Master</span>
+                  <span class="filter-remove">×</span>
+                </div>
+                <div class="active-filter-bubble" data-category="type" data-value="Full Clears">
+                  <span class="filter-text">Full clears</span>
+                  <span class="filter-remove">×</span>
+                </div> -->
+              </div>
+            </div>
+
+            <!-- Divider -->
+            <hr class="filter-divider" />
+
+            <!-- Filter Toggle -->
+            <div class="filter-toggle-section">
+              <button class="filter-toggle-btn" id="filterToggleBtn">Show filters</button>
+              <button class="filter-apply-btn" id="filterApplyBtn" style="display: none;">Apply</button>
+            </div>
+
+            <!-- Filter Categories Grid -->
+            <div class="filter-categories-grid" id="filterCategoriesGrid" style="display: none;">
+              <!-- Raids Column -->
+              <div class="filter-category-column">
+                <div class="filter-category-label">Raids</div>
+                <div class="filter-options-list" data-category="raids">
+                  <div class="available-filter-bubble" data-value="All Raids">All Raids</div>
+                  <div class="available-filter-bubble" data-value="The Desert Perpetual (Epic)">The Desert Perpetual (Epic)</div>
+                  <div class="available-filter-bubble" data-value="The Desert Perpetual">The Desert Perpetual</div>
+                  <div class="available-filter-bubble" data-value="Salvation's Edge">Salvation's Edge</div>
+                  <div class="available-filter-bubble" data-value="Crota's End">Crota's End</div>
+                  <div class="available-filter-bubble" data-value="Root of Nightmares">Root of Nightmares</div>
+                  <div class="available-filter-bubble" data-value="King's Fall">King's Fall</div>
+                  <div class="available-filter-bubble" data-value="Vow of the Disciple">Vow of the Disciple</div>
+                  <div class="available-filter-bubble" data-value="Vault of Glass">Vault of Glass</div>
+                  <div class="available-filter-bubble" data-value="Deep Stone Crypt">Deep Stone Crypt</div>
+                  <div class="available-filter-bubble" data-value="Garden of Salvation">Garden of Salvation</div>
+                  <div class="available-filter-bubble" data-value="Last Wish">Last Wish</div>
+                  <div class="available-filter-bubble" data-value="Crown of Sorrow">Crown of Sorrow</div>
+                  <div class="available-filter-bubble" data-value="Scourge of the Past">Scourge of the Past</div>
+                  <div class="available-filter-bubble" data-value="Spire of Stars">Spire of Stars</div>
+                  <div class="available-filter-bubble" data-value="Eater of Worlds">Eater of Worlds</div>
+                  <div class="available-filter-bubble" data-value="Leviathan">Leviathan</div>
+                </div>
+              </div>
+
+              <!-- Dungeons Column -->
+              <div class="filter-category-column">
+                <div class="filter-category-label">Dungeons</div>
+                <div class="filter-options-list" data-category="dungeons">
+                  <div class="available-filter-bubble" data-value="All Dungeons">All Dungeons</div>
+                  <div class="available-filter-bubble" data-value="Equilibrium">Equilibrium</div>
+                  <div class="available-filter-bubble" data-value="Sundered Doctrine">Sundered Doctrine</div>
+                  <div class="available-filter-bubble" data-value="Vesper's Host">Vesper's Host</div>
+                  <div class="available-filter-bubble" data-value="Warlord's Ruin">Warlord's Ruin</div>
+                  <div class="available-filter-bubble" data-value="Ghosts of the Deep">Ghosts of the Deep</div>
+                  <div class="available-filter-bubble" data-value="Spire of the Watcher">Spire of the Watcher</div>
+                  <div class="available-filter-bubble" data-value="Duality">Duality</div>
+                  <div class="available-filter-bubble" data-value="Grasp of Avarice">Grasp of Avarice</div>
+                  <div class="available-filter-bubble" data-value="Prophecy">Prophecy</div>
+                  <div class="available-filter-bubble" data-value="Pit of Heresy">Pit of Heresy</div>
+                  <div class="available-filter-bubble" data-value="Shattered Throne">Shattered Throne</div>
+                  <div class="available-filter-bubble" data-value="Presage">Presage</div>
+                  <div class="available-filter-bubble" data-value="Harbinger">Harbinger</div>
+                  <div class="available-filter-bubble" data-value="Zero Hour">Zero Hour</div>
+                  <div class="available-filter-bubble" data-value="The Whisper">The Whisper</div>
+                </div>
+              </div>
+
+              <!-- Mode Column -->
+              <div class="filter-category-column">
+                <div class="filter-category-label">Mode</div>
+                <div class="filter-options-list" data-category="mode">
+                  <div class="available-filter-bubble" data-value="Challenge">Challenge</div>
+                  <div class="available-filter-bubble" data-value="Contest">Contest</div>
+                  <div class="available-filter-bubble" data-value="Master">Master</div>
+                  <div class="available-filter-bubble" data-value="Normal">Normal</div>
+                  <div class="available-filter-bubble" data-value="Ultimatum">Ultimatum</div>
+                  <div class="available-filter-bubble" data-value="Heroic">Heroic</div>
+                  <div class="available-filter-bubble" data-value="1 Feat">1 Feat</div>
+                  <div class="available-filter-bubble" data-value="2 Feats">2 Feats</div>
+                  <div class="available-filter-bubble" data-value="3 Feats">3 Feats</div>
+                  <div class="available-filter-bubble" data-value="4 Feats">4 Feats</div>
+                  <div class="available-filter-bubble" data-value="5 Feats">5 Feats</div>
+                </div>
+              </div>
+
+              <!-- Type Column -->
+              <div class="filter-category-column">
+                <div class="filter-category-label">Type</div>
+                <div class="filter-options-list" data-category="type">
+                  <div class="available-filter-bubble" data-value="Full Clears">Full Clears</div>
+                  <div class="available-filter-bubble" data-value="Clears">Clears</div>
+                  <div class="available-filter-bubble" data-value="Fastest Time">Fastest Time</div>
+                  <div class="available-filter-bubble" data-value="Average Time">Average Time</div>
+                  <div class="available-filter-bubble" data-value="Sherpas">Sherpas</div>
+                  <div class="available-filter-bubble" data-value="World's First">World's First</div>
+                  <div class="available-filter-bubble" data-value="Total Time">Total Time</div>
+                  <div class="available-filter-bubble" data-value="Kills">Kills</div>
+                  <div class="available-filter-bubble" data-value="Deaths">Deaths</div>
+                  <div class="available-filter-bubble" data-value="Assists">Assists</div>
+                </div>
+              </div>
+
+              <!-- Fireteam Size Column -->
+              <div class="filter-category-column">
+                <div class="filter-category-label">Fireteam Size</div>
+                <div class="filter-options-list" data-category="fireteam-size">
+                  <div class="available-filter-bubble" data-value="1">1</div>
+                  <div class="available-filter-bubble" data-value="2">2</div>
+                  <div class="available-filter-bubble" data-value="3">3</div>
+                  <div class="available-filter-bubble" data-value="4">4</div>
+                  <div class="available-filter-bubble" data-value="5">5</div>
+                  <div class="available-filter-bubble" data-value="6">6</div>
+                </div>
+              </div>
+
+              <!-- Time Period Column -->
+              <div class="filter-category-column">
+                <div class="filter-category-label">Time Period</div>
+                <div class="filter-options-list" data-category="time-period">
+                  <div class="available-filter-bubble" data-value="All Time">All Time</div>
+                  <div class="available-filter-bubble" data-value="Past Week">Past Week</div>
+                  <div class="available-filter-bubble" data-value="Past Month">Past Month</div>
+                  <div class="available-filter-bubble seasonal-filter-trigger" data-value="Seasonal">Seasonal</div>
+                  <div class="available-filter-bubble custom-date-filter-trigger" data-value="Custom Date">Custom Date</div>
+                </div>
+              </div>
+
+              <!-- Platform Column -->
+              <div class="filter-category-column">
+                <div class="filter-category-label">Platform</div>
+                <div class="filter-options-list" data-category="platform">
+                  <div class="available-filter-bubble" data-value="Steam">Steam</div>
+                  <div class="available-filter-bubble" data-value="Xbox">Xbox</div>
+                  <div class="available-filter-bubble" data-value="PlayStation">PlayStation</div>
+                  <div class="available-filter-bubble" data-value="Epic Games">Epic Games</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="leaderboard">
+        <div class="leaderboard-row header-row">
+          <div class="rank-player">
+            <span class="rank-header">Rank</span>
+            <span class="player-header">Player</span>
+          </div>
+          <div class="stat-value" id="statHeader">Clears</div>
+        </div>
+        <!-- Leaderboard rows will be dynamically generated here -->
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <span>RADIndex</span>
+        <span class="version">v1.0</span>
+      </div>
+    </footer>
+
+    <!-- Seasonal Filter Modal -->
+    <div class="modal-backdrop" id="seasonalModalBackdrop" style="display: none;">
+      <div class="modal-container" id="seasonalModalContainer">
+        <div class="modal-header">
+          <h2>Filter by seasons</h2>
+        </div>
+        <div class="modal-content">
+          <div class="season-bubbles-grid" id="seasonBubblesGrid">
+            <!-- Season bubbles will be generated dynamically -->
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="modal-button modal-button-apply" id="seasonalModalApply">Apply</button>
+          <button class="modal-button modal-button-cancel" id="seasonalModalCancel">Cancel</button>
+          <button class="modal-button modal-button-clear" id="seasonalModalClear">Clear</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Custom Date Filter Modal -->
+    <div class="modal-backdrop" id="customDateModalBackdrop" style="display: none;">
+      <div class="modal-container" id="customDateModalContainer">
+        <div class="modal-header">
+          <h2>Filter by date range</h2>
+        </div>
+        <div class="modal-content">
+          <div class="date-selection-section">
+            <label class="date-section-label">Start Date</label>
+            <div class="date-dropdowns-group">
+              <select class="date-dropdown" id="startDay">
+                <option value="">Day</option>
+              </select>
+              <select class="date-dropdown" id="startMonth">
+                <option value="">Month</option>
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+                <option value="7">July</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+              </select>
+              <select class="date-dropdown" id="startYear">
+                <option value="">Year</option>
+              </select>
+            </div>
+          </div>
+          <div class="date-selection-section">
+            <label class="date-section-label">End Date</label>
+            <div class="date-dropdowns-group">
+              <select class="date-dropdown" id="endDay">
+                <option value="">Day</option>
+              </select>
+              <select class="date-dropdown" id="endMonth">
+                <option value="">Month</option>
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+                <option value="7">July</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+              </select>
+              <select class="date-dropdown" id="endYear">
+                <option value="">Year</option>
+              </select>
+            </div>
+          </div>
+          <div class="validation-message" id="dateValidationMessage" style="display: none;"></div>
+        </div>
+        <div class="modal-footer">
+          <button class="modal-button modal-button-apply" id="customDateModalApply">Apply</button>
+          <button class="modal-button modal-button-cancel" id="customDateModalCancel">Cancel</button>
+          <button class="modal-button modal-button-clear" id="customDateModalClear">Clear</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="lb.js"></script>
+  </body>
+</html>
+

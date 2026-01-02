@@ -1,0 +1,2362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RADIndex - Home</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">RADIndex</div>
+      <div class="search-container">
+        <input
+          type="text"
+          placeholder="Search for a player..."
+          class="search-input"
+        />
+      </div>
+    </nav>
+
+    <main class="container">
+      
+        <div class="hero-section">
+            <a href="#" class="hero-box">
+            <span class="hero-box-icon">🛡️</span>
+            <span class="hero-box-label">Clan Leaderboard</span>
+            </a>
+
+            <div class="hero-center">
+              <h1 class="hero-title">RADIndex</h1>
+            <input
+                type="text"
+                class="hero-search"
+                placeholder="Search for a player..."
+            />
+
+            <input type="checkbox" id="view-toggle" class="toggle-checkbox" />
+            <label for="view-toggle" class="toggle-container">
+                <span class="toggle-option">Raids</span>
+                <span class="toggle-option">Dungeons</span>
+                <div class="toggle-slider"></div>
+            </label>
+            </div>
+
+            <a href="#" class="hero-box">
+            <span class="hero-box-icon">👤</span>
+            <span class="hero-box-label">My Profile</span>
+            </a>
+        </div>
+
+      <div class="card-grid">
+        <div class="card persistent-card"> <!-- Raid and Dungeon Card -->
+          <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Raids and Dungeons</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="lb.html?type=Full+Clears">Combined</a>
+                  <a href="lb.html?raids=All+Raids&type=Full+Clears">Raids</a>
+                  <a href="lb.html?dungeons=All+Dungeons&type=Full+Clears">Dungeons</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="lb.html?type=Fastest+Time">Combined</a>
+                  <a href="lb.html?raids=All+Raids&type=Fastest+Time">Raids</a>
+                  <a href="lb.html?dungeons=All+Dungeons&type=Fastest+Time">Dungeons</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="lb.html?type=Sherpas">Combined</a>
+                  <a href="lb.html?raids=All+Raids&type=Sherpas">Raids</a>
+                  <a href="lb.html?dungeons=All+Dungeons&type=Sherpas">Dungeons</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card raid-card"> <!-- DP Card -->
+          <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>The Desert Perpetual</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="lb.html?raids=The+Desert+Perpetual&type=Full+Clears&mode=Normal">Normal</a>
+                  <a href="lb.html?raids=The+Desert+Perpetual&type=Full+Clears&mode=Normal&time-period=Past+Week">Recent</a>
+                  <a href="lb.html?raids=The+Desert+Perpetual&type=Full+Clears&mode=Normal&fireteam-size=3">Lowman</a>
+                </li>
+                <li>
+                  <a href="lb.html?raids=The+Desert+Perpetual+(Epic)&type=Full+Clears&mode=Normal">Epic</a>
+                  <a href="lb.html?raids=The+Desert+Perpetual+(Epic)&type=Full+Clears&mode=Normal&time-period=Past+Week">Recent</a>
+                  <a href="lb.html?raids=The+Desert+Perpetual+(Epic)&type=Full+Clears&mode=Normal&fireteam-size=3">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="lb.html?raids=The+Desert+Perpetual&type=Fastest+Time&mode=Normal">Normal</a>
+                  <a href="lb.html?raids=The+Desert+Perpetual&type=Fastest+Time&mode=Normal&time-period=Past+Week">Recent</a>
+                  <a href="lb.html?raids=The+Desert+Perpetual&type=Fastest+Time&mode=Normal&fireteam-size=3">Lowman</a>
+                </li>
+                <li>
+                  <a href="lb.html?raids=The+Desert+Perpetual+(Epic)&type=Fastest+Time&mode=Normal">Epic</a>
+                  <a href="lb.html?raids=The+Desert+Perpetual+(Epic)&type=Fastest+Time&mode=Normal&time-period=Past+Week">Recent</a>
+                  <a href="lb.html?raids=The+Desert+Perpetual+(Epic)&type=Fastest+Time&mode=Normal&fireteam-size=3">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="lb.html?raids=The+Desert+Perpetual&type=Sherpas&mode=Normal">Normal</a>
+                  <a href="lb.html?raids=The+Desert+Perpetual&type=Sherpas&mode=Normal&time-period=Past+Week">Recent</a>
+                  <a href="lb.html?raids=The+Desert+Perpetual&type=Sherpas&mode=Normal&fireteam-size=3">Lowman</a>
+                </li>
+                <li>
+                  <a href="lb.html?raids=The+Desert+Perpetual+(Epic)&type=Sherpas&mode=Normal">Epic</a>
+                  <a href="lb.html?raids=The+Desert+Perpetual+(Epic)&type=Sherpas&mode=Normal&time-period=Past+Week">Recent</a>
+                  <a href="lb.html?raids=The+Desert+Perpetual+(Epic)&type=Sherpas&mode=Normal&fireteam-size=3">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="lb.html?raids=The+Desert+Perpetual&type=World's+First&mode=Contest">Contest</a>
+                  <a href="lb.html?raids=The+Desert+Perpetual&type=World's+First&mode=Contest&fireteam-size=3">Lowman</a>
+                </li>
+                <li>
+                  <a href="lb.html?raids=The+Desert+Perpetual+(Epic)&type=World's+First&mode=Contest">Epic Contest</a>
+                  <a href="lb.html?raids=The+Desert+Perpetual+(Epic)&type=World's+First&mode=Contest&fireteam-size=3">Lowman</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card raid-card"> <!-- SE Card -->
+          <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Salvation's Edge</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="lb.html?raids=Salvation's+Edge&type=Full+Clears&mode=Normal">Normal</a>
+                  <a href="lb.html?raids=Salvation's+Edge&type=Full+Clears&mode=Normal&time-period=Past+Week">Recent</a>
+                  <a href="lb.html?raids=Salvation's+Edge&type=Full+Clears&mode=Normal&fireteam-size=3">Lowman</a>
+                </li>
+                <li>
+                  <a href="lb.html?raids=Salvation's+Edge&type=Full+Clears&mode=Master">Master</a>
+                  <a href="lb.html?raids=Salvation's+Edge&type=Full+Clears&mode=Master&time-period=Past+Week">Recent</a>
+                  <a href="lb.html?raids=Salvation's+Edge&type=Full+Clears&mode=Master&fireteam-size=3">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="lb.html?raids=Salvation's+Edge&type=Fastest+Time&mode=Normal">Normal</a>
+                  <a href="lb.html?raids=Salvation's+Edge&type=Fastest+Time&mode=Normal&time-period=Past+Week">Recent</a>
+                  <a href="lb.html?raids=Salvation's+Edge&type=Fastest+Time&mode=Normal&fireteam-size=3">Lowman</a>
+                </li>
+                <li>
+                  <a href="lb.html?raids=Salvation's+Edge&type=Fastest+Time&mode=Master">Master</a>
+                  <a href="lb.html?raids=Salvation's+Edge&type=Fastest+Time&mode=Master&time-period=Past+Week">Recent</a>
+                  <a href="lb.html?raids=Salvation's+Edge&type=Fastest+Time&mode=Master&fireteam-size=3">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="lb.html?raids=Salvation's+Edge&type=Sherpas&mode=Normal">Normal</a>
+                  <a href="lb.html?raids=Salvation's+Edge&type=Sherpas&mode=Normal&time-period=Past+Week">Recent</a>
+                  <a href="lb.html?raids=Salvation's+Edge&type=Sherpas&mode=Normal&fireteam-size=3">Lowman</a>
+                </li>
+                <li>
+                  <a href="lb.html?raids=Salvation's+Edge&type=Sherpas&mode=Master">Master</a>
+                  <a href="lb.html?raids=Salvation's+Edge&type=Sherpas&mode=Master&time-period=Past+Week">Recent</a>
+                  <a href="lb.html?raids=Salvation's+Edge&type=Sherpas&mode=Master&fireteam-size=3">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li><a href="lb.html?raids=Salvation's+Edge&type=World's+First&mode=Contest">Contest</a></li>
+                <li><a href="lb.html?raids=Salvation's+Edge&type=World's+First&mode=Master">Master</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card raid-card"> <!-- CE Card -->
+          <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Crota's End</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li><a href="#">Challenge</a></li>
+                <li><a href="#">Normal</a></li>
+                <li><a href="#">Master</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card raid-card"> <!-- RON Card -->
+          <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Root of Nightmares</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li><a href="#">Contest</a></li>
+                <li><a href="#">Master</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card raid-card"> <!-- KF Card -->
+          <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>King's Fall</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li><a href="#">Challenge</a></li>
+                <li><a href="#">Normal</a></li>
+                <li><a href="#">Master</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card raid-card"> <!-- VOW Card -->
+          <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Vow of the Disciple</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li><a href="#">Contest</a></li>
+                <li><a href="#">Master</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card raid-card"> <!-- VOG Card -->
+          <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Vault of Glass</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li><a href="#">Challenge</a></li>
+                <li><a href="#">Normal</a></li>
+                <li><a href="#">Master</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card raid-card"> <!-- DSC Card -->
+          <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Deep Stone Crypt</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li><a href="#">Contest</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card raid-card"> <!-- GOS Card -->
+          <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Garden of Salvation</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li><a href="#">Contest</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card raid-card"> <!-- LW Card -->
+          <!-- LW Card -->
+          <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Last Wish</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li><a href="#">Normal</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card raid-card"> <!-- COS Card -->
+          <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Crown of Sorrow</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li><a href="#">Normal</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card raid-card"> <!-- SOTP Card -->
+          <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Scourge of the Past</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li><a href="#">Normal</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card raid-card"> <!-- SOS Card -->
+          <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Spire of Stars</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+                <li>
+                  <a href="#">Prestige</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+                <li>
+                  <a href="#">Prestige</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li><a href="#">Normal</a></li>
+                <li><a href="#">Prestige</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card raid-card"> <!-- EOW Card -->
+          <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Eater of Worlds</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+                <li>
+                  <a href="#">Prestige</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+                <li>
+                  <a href="#">Prestige</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li><a href="#">Normal</a></li>
+                <li><a href="#">Prestige</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card raid-card"> <!-- Leviathan Card -->
+          <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Leviathan</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+                <li>
+                  <a href="#">Prestige</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+                <li>
+                  <a href="#">Prestige</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Lowman</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li><a href="#">Normal</a></li>
+                <li><a href="#">Prestige</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card dungeon-card" style="display: none;"> <!-- Equilibrium Dungeon Card -->
+          <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Equilibrium</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Contest</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card dungeon-card" style="display: none;"> <!-- Sundered Doctrine Dungeon Card -->
+          <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Sundered Doctrine</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Contest</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card dungeon-card" style="display: none;"> <!-- Vesper's Host Dungeon Card -->
+          <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Vesper's Host</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Contest</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card dungeon-card" style="display: none;"> <!-- Warlord's Ruin Dungeon Card -->
+          <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Warlord's Ruin</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Contest</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card dungeon-card" style="display: none;"> <!-- Ghosts of the Deep Dungeon Card -->
+          <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Ghosts of the Deep</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Ultimatum</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Ultimatum</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Ultimatum</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Contest</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Ultimatum</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card dungeon-card" style="display: none;"> <!-- Spire of the Watcher Dungeon Card -->
+            <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Spire of the Watcher</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Ultimatum</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Ultimatum</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Ultimatum</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Ultimatum</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card dungeon-card" style="display: none;"> <!-- Duality Dungeon Card -->
+            <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Duality</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card dungeon-card" style="display: none;"> <!-- Grasp of Avarice Dungeon Card -->
+            <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Grasp of Avarice</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card dungeon-card" style="display: none;"> <!-- Prophecy Dungeon Card -->
+            <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Prophecy</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Ultimatum</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Ultimatum</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Ultimatum</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Ultimatum</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card dungeon-card" style="display: none;"> <!-- Pit of Heresy Dungeon Card -->
+            <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Pit of Heresy</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card dungeon-card" style="display: none;"> <!-- Shattered Throne Dungeon Card -->
+            <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Shattered Throne</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card dungeon-card" style="display: none;"> <!-- Presage Dungeon Card -->
+            <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Presage</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Master</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card dungeon-card" style="display: none;"> <!-- Harbinger Dungeon Card -->
+          <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Harbinger</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card dungeon-card" style="display: none;"> <!-- Zero Hour Dungeon Card -->
+            <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>Zero Hour</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Heroic</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Heroic</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Heroic</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Heroic</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card dungeon-card" style="display: none;"> <!-- The Whisper Dungeon Card -->
+            <div
+            class="card-header"
+            style="
+              background-image: url('https://www.bungie.net/common/destiny2_content/icons/68630a6df3143c7b8d80e77d7008f514.jpg');
+            "
+          >
+            <div class="card-title-overlay">
+              <h2>The Whisper</h2>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="stat-group">
+              <h3>Full Clears Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Heroic</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Speedrun Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Heroic</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>Sherpa Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Heroic</a>
+                  <a href="#">Recent</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stat-group">
+              <h3>World's First Leaderboards</h3>
+              <ul>
+                <li>
+                  <a href="#">Normal</a>
+                  <a href="#">Solo</a>
+                </li>
+                <li>
+                  <a href="#">Heroic</a>
+                  <a href="#">Solo</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <span>RADIndex</span>
+        <span class="version">v1.0</span>
+      </div>
+    </footer>
+
+    <script>
+      // Get the toggle checkbox
+      const toggleCheckbox = document.getElementById('view-toggle');
+      
+      // Get all raid and dungeon cards
+      const raidCards = document.querySelectorAll('.raid-card');
+      const dungeonCards = document.querySelectorAll('.dungeon-card');
+      
+      // Function to update card visibility based on toggle state
+      function updateCardVisibility() {
+        if (toggleCheckbox.checked) {
+          // Show dungeons, hide raids
+          raidCards.forEach(card => {
+            card.style.display = 'none';
+          });
+          dungeonCards.forEach(card => {
+            card.style.display = 'block';
+          });
+        } else {
+          // Show raids, hide dungeons
+          raidCards.forEach(card => {
+            card.style.display = 'block';
+          });
+          dungeonCards.forEach(card => {
+            card.style.display = 'none';
+          });
+        }
+      }
+      
+      // Add event listener to toggle
+      toggleCheckbox.addEventListener('change', updateCardVisibility);
+      
+      // Initialize visibility on page load (default to raids)
+      updateCardVisibility();
+      
+      // Function to build leaderboard URL
+      function buildLeaderboardURL(activity, activityType, statType, mode, timePeriod, fireteamSize, epicContest = false) {
+        const params = [];
+        
+        // Handle Epic Contest special case
+        if (epicContest && activity === 'The Desert Perpetual') {
+          activity = 'The Desert Perpetual (Epic)';
+          mode = 'Contest';
+        } else if (mode === 'Epic' && activity === 'The Desert Perpetual') {
+          activity = 'The Desert Perpetual (Epic)';
+          mode = 'Normal';
+        }
+        
+        // Add activity filter
+        if (activity) {
+          if (activityType === 'raid') {
+            params.push(`raids=${activity.replace(/ /g, '+')}`);
+          } else if (activityType === 'dungeon') {
+            params.push(`dungeons=${activity.replace(/ /g, '+')}`);
+          } else if (activity === 'Combined') {
+            // No activity filter for combined
+          } else if (activity === 'Raids') {
+            params.push('raids=All+Raids');
+          } else if (activity === 'Dungeons') {
+            params.push('dungeons=All+Dungeons');
+          }
+        }
+        
+        // Add type filter
+        const typeMap = {
+          'Full Clears Leaderboards': 'Full Clears',
+          'Speedrun Leaderboards': 'Fastest Time',
+          'Sherpa Leaderboards': 'Sherpas',
+          'World\'s First Leaderboards': 'World\'s First'
+        };
+        if (statType && typeMap[statType]) {
+          params.push(`type=${typeMap[statType].replace(/ /g, '+')}`);
+        }
+        
+        // Add mode filter (only if not already set by epicContest)
+        if (mode && !epicContest) {
+          const modeMap = {
+            'Normal': 'Normal',
+            'Master': 'Master',
+            'Epic': 'Normal', // Epic is handled by activity name change
+            'Contest': 'Contest',
+            'Prestige': 'Ultimatum',
+            'Heroic': 'Heroic',
+            'Challenge': 'Challenge'
+          };
+          if (modeMap[mode]) {
+            params.push(`mode=${modeMap[mode]}`);
+          }
+        } else if (epicContest) {
+          params.push('mode=Contest');
+        }
+        
+        // Add time period filter
+        if (timePeriod === 'Recent') {
+          params.push('time-period=Past+Week');
+        }
+        
+        // Add fireteam size filter
+        if (fireteamSize === 'Lowman') {
+          params.push('fireteam-size=3');
+        } else if (fireteamSize === 'Solo') {
+          params.push('fireteam-size=1');
+        }
+        
+        return `lb.html?${params.join('&')}`;
+      }
+      
+      // Set all leaderboard link hrefs dynamically
+      function setLeaderboardLinks() {
+        // Get all cards
+        const cards = document.querySelectorAll('.card');
+        
+        cards.forEach(card => {
+          // Get activity name from card header
+          const cardHeader = card.querySelector('.card-title-overlay h2');
+          if (!cardHeader) return;
+          
+          const activityName = cardHeader.textContent.trim();
+          
+          // Determine if it's a raid or dungeon
+          let activityType = null;
+          let activityValue = activityName;
+          
+          if (activityName === 'Raids and Dungeons') {
+            activityValue = null; // Special case
+          } else if (card.classList.contains('raid-card')) {
+            activityType = 'raid';
+          } else if (card.classList.contains('dungeon-card')) {
+            activityType = 'dungeon';
+          } else if (card.classList.contains('persistent-card')) {
+            activityType = null; // Combined card
+          }
+          
+          // Get all stat groups in this card
+          const statGroups = card.querySelectorAll('.stat-group');
+          
+          statGroups.forEach(statGroup => {
+            const statType = statGroup.querySelector('h3')?.textContent.trim();
+            const links = statGroup.querySelectorAll('a[href="#"]');
+            
+            links.forEach(link => {
+              const linkText = link.textContent.trim();
+              const parentLi = link.closest('li');
+              const siblingLinks = Array.from(parentLi.querySelectorAll('a'));
+              
+              // Determine mode from the first link in the li (if it's a mode link)
+              let mode = null;
+              const firstLinkText = siblingLinks[0]?.textContent.trim();
+              if (['Normal', 'Master', 'Epic', 'Contest', 'Prestige', 'Heroic', 'Challenge'].includes(firstLinkText)) {
+                mode = firstLinkText;
+              }
+              
+              // Determine time period and fireteam size based on this specific link
+              let timePeriod = null;
+              let fireteamSize = null;
+              let epicContest = false;
+              
+              if (linkText === 'Recent') {
+                timePeriod = 'Recent';
+              } else if (linkText === 'Lowman') {
+                fireteamSize = 'Lowman';
+              } else if (linkText === 'Solo') {
+                fireteamSize = 'Solo';
+              } else if (linkText === 'Epic Contest') {
+                epicContest = true;
+                mode = 'Contest';
+              } else if (['Normal', 'Master', 'Epic', 'Contest', 'Prestige', 'Heroic', 'Challenge'].includes(linkText)) {
+                // This link is the mode itself
+                mode = linkText;
+              }
+              
+              // Special handling for activity scope links (Combined, Raids, Dungeons)
+              if (['Combined', 'Raids', 'Dungeons'].includes(linkText)) {
+                link.href = buildLeaderboardURL(linkText, null, statType, null, null, null);
+              } else {
+                link.href = buildLeaderboardURL(activityValue, activityType, statType, mode, timePeriod, fireteamSize, epicContest);
+              }
+            });
+          });
+        });
+      }
+      
+      // Set links on page load
+      setLeaderboardLinks();
+    </script>
+  </body>
+</html>

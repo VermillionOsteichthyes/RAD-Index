@@ -30,7 +30,36 @@
     - keep it simple
     - reference rr in appropriate style
     - add a filter to change activity, sort (clears, speed), past time period (all, weekly), 
-        platform (multi select), best time period (best week, etc)
+        platform (multi select), best time period (best week, etc), Average clear time
+
+    - filters
+        - activity (specific raid/dungeon)
+        - mode (normal, master, contest, ...)
+            - should only display possible modes for the activity
+        - FT size (1-6)
+            - should we give a range?
+            - I dont think we can just do specified size or less
+                - this sort of works for speed, (if someone has a faster duo than most)
+                - but I think for correctness we should allow for selecting exactly 3
+        - Type/Stat
+            - full clears
+            - clears
+            - speed
+            - sherpas
+            - wf
+            - contest ? why would we want this
+            - average time
+            - total time
+            - kills
+            - deaths
+            - assists
+            - feats ****************************************************
+        - time period (all, past week, s12, custom date range)
+            - for custom date range have a calendar like google flights
+        - platform (multi select)
+    - should be a way to update the top level filter as well as add a new one
+        - if there is more than one filter already then do we still update the top level filter?
+        
 
 
 - Clan Leaderboard
@@ -99,15 +128,20 @@
     - history page
     - Instance finder
 
+- PCGR Viewing Page
+    - 
+
 - FRIENDS/TEAMS PAGE
     - list of friends by various stats
     - some way to show which people/teams are the best together? (avg times)
         - inverse sort to show worst teams      
 
 - history page
-    - 
+    - filters? or should we seperate to instance finder?
+    - heat map?
 - Instance finder
-    - 
+    - potentially put this under history page
+        - filter by activity, duration, date range, players, clan members only, platform
 
 
 Settings Page
@@ -130,3 +164,7 @@ cache settings?
 differentiate between past week and best week
 
 page to compare players?
+
+dungeon wf section is unclear. so next to contest implies solo contest rather than normal solo
+
+for RAD card under speed we need both a cumulative row and a legacy row

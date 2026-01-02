@@ -1,0 +1,347 @@
+/* 1. VARIABLES - Extracted from your reference file */
+:root {
+    --bg: #09090b;             /* Main background */
+    --bg-card: #18181b;        /* Lighter background for elements */
+    --border: #3f3f46;         /* Border color */
+    --text: #ffffff;           /* Main text color */
+    --text-secondary: #d4d4d8; /* Secondary text color */
+    --accent: #c9c9c9;         /* Blue accent color */
+}
+
+/* 2. GLOBAL RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', system-ui, sans-serif; /* Matching font stack */
+    min-height: 100vh; /* Ensures page fills the screen */
+    display: flex;
+    flex-direction: column;
+}
+
+/* 3. NAVBAR STYLING */
+.navbar {
+    background-color: var(--bg); /* Matches body or use --bg-card for contrast */
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 1.5rem; /* Vertical | Horizontal padding */
+    display: flex;
+    justify-content: space-between; /* Pushes items to far left and right */
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: var(--text);
+}
+
+.search-input {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    width: 250px; /* Fixed width for now */
+    outline: none;
+}
+
+.search-input:focus {
+    border-color: var(--accent); /* Blue glow when typing */
+}
+
+/* 4. MAIN CONTAINER (To keep things centered later) */
+.container {
+    padding: 2rem;
+    flex: 1; /* Pushes footer to the bottom if content is short */
+    max-width: 88rem;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.h1 {
+    margin-bottom: 0.5rem;
+}
+
+p {
+    color: var(--text-secondary);
+}
+
+/* 5. FOOTER STYLING */
+.footer {
+    border-top: 1px solid var(--border);
+    padding: 1.5rem;
+    margin-top: auto;
+    color: var(--text-secondary);
+    font-size: 0.875rem; /* Slightly smaller text */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 72rem;
+    margin: 0 auto;
+}
+
+/* hero section */
+/* --- Hero Section Layout --- */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px; /* Reduced space before the card grid starts */
+}
+
+/* --- Side Boxes (Clan & Profile) --- */
+.hero-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    /* Adjusted width to match Crest aspect ratio (approx 210/297) */
+    width: 176px; 
+    height: 250px;
+    
+    background-color: var(--accent);
+    
+    /* Remove standard border - it gets cut off by the mask */
+    border: none;
+    
+    /* THE MASK: Cuts the box into the crest shape */
+    -webkit-mask-image: url('crest.svg');
+    mask-image: url('crest.svg');
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+
+    /* THE BORDER TRICK: Creates a shadow that looks like a border */
+    filter: drop-shadow(0px 0px 1px var(--border));
+
+    text-decoration: none;
+    color: var(--text);
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+.hero-box:hover {
+    background-color: white; /* hovering colour */
+    transform: translateY(-2px);
+    
+    /* Update filter to include a deeper shadow for the hover lift effect */
+    /* Note: 'box-shadow' property doesn't work well on masks, use drop-shadow here too */
+    filter: drop-shadow(0px 0px 1px var(--border)) 
+            drop-shadow(0px 6px 8px rgba(0,0,0,0.4));
+}
+
+.hero-box-icon {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    /* Move content down slightly so it's not in the narrow top part of the crest */
+    margin-top: 20px; 
+}
+
+/* --- Center Container --- */
+.hero-center {
+    flex-grow: 1; /* Takes up remaining space */
+    max-width: 600px; /* Limits width so it doesn't stretch too far */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/* --- Large Search Bar --- */
+.hero-search {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    background-color: var(--bg-card);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.hero-search:focus {
+    border-color: var(--accent);
+}
+
+/* --- Toggle Switch (Raids vs Dungeons) --- */
+.toggle-checkbox {
+    display: none;
+}
+
+.toggle-container {
+    position: relative;
+    display: flex;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 4px;
+    width: 300px; /* Width of the whole toggle */
+    cursor: pointer;
+    user-select: none;
+    margin-top: 90px;
+}
+
+/* Style the labels (clickable areas) */
+.toggle-option {
+    flex: 1;
+    text-align: center;
+    padding: 8px 0;
+    z-index: 2; /* Sits above the slider */
+    font-weight: bold;
+    color: var(--text-secondary);
+    transition: color 0.3s;
+}
+
+/* The sliding background pill */
+.toggle-slider {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: calc(50% - 4px); /* Half width minus padding */
+    height: calc(100% - 8px);
+    background: var(--accent);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+    z-index: 1;
+}
+
+/* Logic: Move slider based on checkbox state */
+/* Unchecked = Raids (Left) */
+.toggle-checkbox:not(:checked) + .toggle-container .toggle-slider {
+    transform: translateX(0);
+}
+.toggle-checkbox:not(:checked) + .toggle-container .toggle-option:first-of-type {
+    color: var(--bg);
+}
+
+/* Checked = Dungeons (Right) */
+.toggle-checkbox:checked + .toggle-container .toggle-slider {
+    transform: translateX(100%);
+}
+.toggle-checkbox:checked + .toggle-container .toggle-option:last-of-type {
+    color: var(--bg);
+}
+
+
+/* --- CARD GRID SYSTEM --- */
+.card-grid {
+    display: grid;
+    /* This automatically creates columns that are at least 300px wide */
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 10px;
+    margin-top: 0.6rem;
+}
+
+/* --- THE CARD --- */
+.card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden; /* Ensures the image doesn't stick out of the rounded corners */
+    display: flex;
+    flex-direction: column;
+    scale: 0.91;
+}
+
+/* Persistent card always visible */
+.persistent-card {
+    display: flex !important;
+}
+
+/* Card Header (Image area) */
+.card-header {
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    position: relative; /* Needed so we can position the text on top of it */
+}
+
+/* Dark fade at the bottom of the image so text pops */
+.card-title-overlay {
+    padding: 25px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+}
+
+.card-title-overlay h2 {
+    text-align: left;
+    font-size: 1.5rem;
+    color: white;
+    margin: 0;
+}
+
+/* Card Body (The list area) */
+.card-body {
+    padding: 25px; /* alight left with h2 */
+}
+
+/* --- THE LISTS --- */
+.stat-group {
+    margin-bottom: 1.5rem; /* Space between groups */
+}
+
+.stat-group:last-child {
+    margin-bottom: 0; /* Remove space after the last group */
+}
+
+.stat-group h3 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted); /* Using the muted grey from your variables */
+    margin-bottom: 0.5rem;
+}
+
+.stat-group ul {
+    list-style: none; /* Removes the bullet points */
+    padding: 0;
+}
+
+.stat-group li {
+    display: grid;
+    grid-template-columns: repeat(3, 0.3fr);
+    gap: 5px;
+    margin-bottom: 0.25rem;
+    
+    /* vertical space between lines */
+}
+
+/* For World's First leaderboards with single links, use auto columns to prevent wrapping */
+.stat-group li:has(> a:only-child) {
+    grid-template-columns: auto;
+}
+
+/* For items with exactly 2 links, use 2 columns */
+.stat-group li:has(> a:nth-child(2):last-child) {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.stat-group a {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.2s; /* Smooth color change */
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+.stat-group a:hover {
+    color: white; /* Light up when hovered */
+    text-decoration: underline;
+}
