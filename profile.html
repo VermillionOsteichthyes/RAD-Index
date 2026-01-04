@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Player Profile - RADIndex</title>
+    <link rel="stylesheet" href="profile.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="home.html" class="logo">RADIndex</a>
+      <div class="search-container">
+        <input
+          type="text"
+          placeholder="Search for a player..."
+          class="search-input"
+        />
+      </div>
+    </nav>
+
+    <main class="container">
+      <!-- Player Header Section -->
+      <div class="player-header">
+        <div class="player-header-top">
+          <img src="" alt="Player Emblem" class="player-emblem" id="playerEmblem" />
+        </div>
+        <div class="player-header-bottom">
+          <div class="player-name-clan">
+            <h1 class="player-name" id="playerName">PlayerName</h1>
+            <a class="clan-name" id="clanName">Clan Name</a>
+          </div>
+          <div class="player-ranks">
+            <div class="rank-bubble" id="clearsRankBubble">
+              <div class="rank-bubble-label" id="clearsRankLabel">Clears Rank #42</div>
+              <div class="rank-bubble-value" id="clearsRankTime">1h 27m</div>
+            </div>
+            <div class="rank-bubble" id="speedRankBubble">
+              <div class="rank-bubble-label" id="speedRankLabel">Speed Rank #15</div>
+              <div class="rank-bubble-value" id="speedRankTime">1h 27m</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Raids/Dungeons Toggle -->
+      <div class="toggle-wrapper">
+        <input type="checkbox" id="view-toggle" class="toggle-checkbox" />
+        <label for="view-toggle" class="toggle-container">
+          <span class="toggle-option">Raids</span>
+          <span class="toggle-option">Dungeons</span>
+          <div class="toggle-slider"></div>
+        </label>
+      </div>
+
+      <!-- Activity Cards Grid -->
+      <div class="card-grid" id="cardGrid">
+        <!-- Cards will be generated dynamically -->
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <span>RADIndex</span>
+        <span class="version">v1.0</span>
+      </div>
+    </footer>
+
+    <script src="profile.js"></script>
+  </body>
+</html>
+

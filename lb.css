@@ -77,6 +77,13 @@ body {
     gap: 0.25rem;
 }
 
+.title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
 .leaderboard-header h1 {
     font-size: 2rem;
     font-weight: bold;
@@ -693,5 +700,67 @@ body {
 .modal-button:disabled:hover {
     background-color: var(--accent);
     border-color: var(--accent);
+}
+
+/* Leaderboard Toggle Switch */
+.leaderboard-toggle-container {
+    display: flex;
+    align-items: center;
+}
+
+.leaderboard-toggle-checkbox {
+    display: none;
+}
+
+.leaderboard-toggle-label {
+    position: relative;
+    display: flex;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 4px;
+    width: 200px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.leaderboard-toggle-option {
+    flex: 1;
+    text-align: center;
+    padding: 8px 0;
+    z-index: 2;
+    font-weight: bold;
+    color: var(--text-secondary);
+    transition: color 0.3s;
+    font-size: 0.95rem;
+}
+
+.leaderboard-toggle-slider {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: calc(50% - 4px);
+    height: calc(100% - 8px);
+    background: var(--accent);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+    z-index: 1;
+}
+
+.leaderboard-toggle-checkbox:not(:checked) + .leaderboard-toggle-label .leaderboard-toggle-slider {
+    transform: translateX(0);
+}
+
+.leaderboard-toggle-checkbox:not(:checked) + .leaderboard-toggle-label .leaderboard-toggle-option:first-of-type {
+    color: var(--bg);
+}
+
+.leaderboard-toggle-checkbox:checked + .leaderboard-toggle-label .leaderboard-toggle-slider {
+    transform: translateX(100%);
+}
+
+.leaderboard-toggle-checkbox:checked + .leaderboard-toggle-label .leaderboard-toggle-option:last-of-type {
+    color: var(--bg);
 }
 

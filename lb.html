@@ -12,6 +12,7 @@
       <div class="search-container">
         <input
           type="text"
+          id="navbarSearchInput"
           placeholder="Search for a player..."
           class="search-input"
         />
@@ -21,7 +22,17 @@
     <main class="container">
       <div class="leaderboard-header">
         <div class="title-section">
-          <h1>Salvation's Edge Master Full Clears</h1>
+          <div class="title-row">
+            <h1>Salvation's Edge Master Full Clears</h1>
+            <div class="leaderboard-toggle-container">
+              <input type="checkbox" id="leaderboard-view-toggle" class="leaderboard-toggle-checkbox" />
+              <label for="leaderboard-view-toggle" class="leaderboard-toggle-label">
+                <span class="leaderboard-toggle-option">Player</span>
+                <span class="leaderboard-toggle-option">Clan</span>
+                <div class="leaderboard-toggle-slider"></div>
+              </label>
+            </div>
+          </div>
           <div class="data-info">
             <span class="data-range">Season 12</span>
             <span class="fireteam-size">Fireteam Size: 3</span>
@@ -32,6 +43,7 @@
             <input
               type="text"
               class="leaderboard-search"
+              id="leaderboardSearchInput"
               placeholder="Search for a player..."
             />
             <div class="leaderboard-navigation">
@@ -208,7 +220,7 @@
         <div class="leaderboard-row header-row">
           <div class="rank-player">
             <span class="rank-header">Rank</span>
-            <span class="player-header">Player</span>
+            <span class="player-header" id="entityHeader">Player</span>
           </div>
           <div class="stat-value" id="statHeader">Clears</div>
         </div>

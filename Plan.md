@@ -78,6 +78,13 @@
     - weekly and monthly clears and such
     - rankings by clears/times on specific activities?
 
+    - column operations
+        - add/remove columns
+        - reorder columns
+        - pin columns
+        - unpin columns
+        - change sorting column
+
 
 - Player Profile
     - Name, ranks, clan, links to websites, flair (master edger, etc)
@@ -105,7 +112,7 @@
         - filter to show/hide raids/dungeons?
         - dots
             - filters (times, recency, lowman/flawless, sherpa)
-        - friends / teammates page
+    - friends / teammates page
 
 
 - Clan Profile
@@ -168,3 +175,7 @@ page to compare players?
 dungeon wf section is unclear. so next to contest implies solo contest rather than normal solo
 
 for RAD card under speed we need both a cumulative row and a legacy row
+
+add # of instances rank
+
+add top 10 and top 50 rank badge colours since cheaters are gone

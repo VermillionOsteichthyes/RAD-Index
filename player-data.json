@@ -1,0 +1,802 @@
+{
+  "playerId": "123456789",
+  "name": "PlayerName",
+  "clan": "Clan Name",
+  "emblemUrl": "https://www.bungie.net/common/destiny2_content/icons/3f8a0920aad0c2fbad18938497635f23.jpg",
+  "clearsRank": 89,
+  "speedRank": 72,
+  "raidsClearsRank": 95,
+  "raidsSpeedRank": 78,
+  "raidsSpeedTime": "1h 27m",
+  "raidsFullClearsCount": 1595,
+  "dungeonsClearsRank": 42,
+  "dungeonsSpeedRank": 35,
+  "dungeonsSpeedTime": "45m 12s",
+  "dungeonsFullClearsCount": 1822,
+  "activities": {
+    "raids": [
+      {
+        "activityName": "The Desert Perpetual",
+        "fullClearsCount": 127,
+        "fastestTime": "38:41",
+        "averageTime": "110:26",
+        "sherpasCount": 16,
+        "kills": 11361,
+        "deaths": 215,
+        "assists": 11302,
+        "totalTime": "257:35:00",
+        "fullClearsRank": 477,
+        "speedRank": 180,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 127,
+            "fastest": "38:41"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 3,
+          "pastWeekClears": 9,
+          "fastestToday": "100:03",
+          "fastestThisWeek": "38:41"
+        },
+        "totalClearsCount": 130
+      },
+      {
+        "activityName": "Salvation's Edge",
+        "fullClearsCount": 89,
+        "fastestTime": "83:53",
+        "averageTime": "92:30",
+        "sherpasCount": 8,
+        "kills": 19582,
+        "deaths": 116,
+        "assists": 14431,
+        "totalTime": "25:48:00",
+        "fullClearsRank": 261,
+        "speedRank": 181,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 89,
+            "fastest": "83:53"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 4,
+          "pastWeekClears": 10,
+          "fastestToday": "84:12",
+          "fastestThisWeek": "83:53"
+        },
+        "totalClearsCount": 90
+      },
+      {
+        "activityName": "Crota's End",
+        "fullClearsCount": 43,
+        "fastestTime": "87:56",
+        "averageTime": "120:09",
+        "sherpasCount": 38,
+        "kills": 16443,
+        "deaths": 660,
+        "assists": 13270,
+        "totalTime": "67:46:00",
+        "fullClearsRank": 299,
+        "speedRank": 77,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 43,
+            "fastest": "87:56"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 1,
+          "pastWeekClears": 3,
+          "fastestToday": "61:28",
+          "fastestThisWeek": "87:56"
+        },
+        "totalClearsCount": 46
+      },
+      {
+        "activityName": "Root of Nightmares",
+        "fullClearsCount": 143,
+        "fastestTime": "79:36",
+        "averageTime": "103:36",
+        "sherpasCount": 43,
+        "kills": 11515,
+        "deaths": 437,
+        "assists": 12916,
+        "totalTime": "93:33:00",
+        "fullClearsRank": 335,
+        "speedRank": 143,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 143,
+            "fastest": "79:36"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 1,
+          "pastWeekClears": 15,
+          "fastestToday": "111:09",
+          "fastestThisWeek": "79:36"
+        },
+        "totalClearsCount": 147
+      },
+      {
+        "activityName": "King's Fall",
+        "fullClearsCount": 81,
+        "fastestTime": "83:57",
+        "averageTime": "41:13",
+        "sherpasCount": 23,
+        "kills": 7571,
+        "deaths": 537,
+        "assists": 3144,
+        "totalTime": "111:31:00",
+        "fullClearsRank": 232,
+        "speedRank": 200,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 81,
+            "fastest": "83:57"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 5,
+          "pastWeekClears": 16,
+          "fastestToday": "64:19",
+          "fastestThisWeek": "83:57"
+        },
+        "totalClearsCount": 85
+      },
+      {
+        "activityName": "Vow of the Disciple",
+        "fullClearsCount": 17,
+        "fastestTime": "52:30",
+        "averageTime": "113:35",
+        "sherpasCount": 16,
+        "kills": 15904,
+        "deaths": 284,
+        "assists": 1282,
+        "totalTime": "39:49:00",
+        "fullClearsRank": 257,
+        "speedRank": 113,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 17,
+            "fastest": "52:30"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 4,
+          "pastWeekClears": 17,
+          "fastestToday": "120:00",
+          "fastestThisWeek": "52:30"
+        },
+        "totalClearsCount": 17
+      },
+      {
+        "activityName": "Vault of Glass",
+        "fullClearsCount": 154,
+        "fastestTime": "118:45",
+        "averageTime": "38:46",
+        "sherpasCount": 49,
+        "kills": 4002,
+        "deaths": 383,
+        "assists": 1451,
+        "totalTime": "202:08:00",
+        "fullClearsRank": 395,
+        "speedRank": 45,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 154,
+            "fastest": "118:45"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 2,
+          "pastWeekClears": 8,
+          "fastestToday": "87:25",
+          "fastestThisWeek": "118:45"
+        },
+        "totalClearsCount": 154
+      },
+      {
+        "activityName": "Deep Stone Crypt",
+        "fullClearsCount": 137,
+        "fastestTime": "102:21",
+        "averageTime": "54:51",
+        "sherpasCount": 31,
+        "kills": 10954,
+        "deaths": 599,
+        "assists": 9329,
+        "totalTime": "280:33:00",
+        "fullClearsRank": 476,
+        "speedRank": 114,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 137,
+            "fastest": "102:21"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 0,
+          "pastWeekClears": 1,
+          "fastestToday": "79:22",
+          "fastestThisWeek": "102:21"
+        },
+        "totalClearsCount": 142
+      },
+      {
+        "activityName": "Garden of Salvation",
+        "fullClearsCount": 146,
+        "fastestTime": "96:39",
+        "averageTime": "58:50",
+        "sherpasCount": 18,
+        "kills": 10091,
+        "deaths": 764,
+        "assists": 11672,
+        "totalTime": "298:47:00",
+        "fullClearsRank": 280,
+        "speedRank": 199,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 146,
+            "fastest": "96:39"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 1,
+          "pastWeekClears": 9,
+          "fastestToday": "79:50",
+          "fastestThisWeek": "96:39"
+        },
+        "totalClearsCount": 149
+      },
+      {
+        "activityName": "Last Wish",
+        "fullClearsCount": 133,
+        "fastestTime": "76:58",
+        "averageTime": "78:21",
+        "sherpasCount": 40,
+        "kills": 16273,
+        "deaths": 473,
+        "assists": 2165,
+        "totalTime": "286:08:00",
+        "fullClearsRank": 443,
+        "speedRank": 88,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 133,
+            "fastest": "76:58"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 3,
+          "pastWeekClears": 20,
+          "fastestToday": "28:55",
+          "fastestThisWeek": "76:58"
+        },
+        "totalClearsCount": 135
+      },
+      {
+        "activityName": "Crown of Sorrow",
+        "fullClearsCount": 57,
+        "fastestTime": "51:00",
+        "averageTime": "111:41",
+        "sherpasCount": 17,
+        "kills": 15401,
+        "deaths": 368,
+        "assists": 10098,
+        "totalTime": "14:47:00",
+        "fullClearsRank": 472,
+        "speedRank": 181,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 57,
+            "fastest": "51:00"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 5,
+          "pastWeekClears": 20,
+          "fastestToday": "44:24",
+          "fastestThisWeek": "51:00"
+        },
+        "totalClearsCount": 58
+      },
+      {
+        "activityName": "Scourge of the Past",
+        "fullClearsCount": 190,
+        "fastestTime": "39:11",
+        "averageTime": "64:30",
+        "sherpasCount": 50,
+        "kills": 5265,
+        "deaths": 289,
+        "assists": 1064,
+        "totalTime": "191:42:00",
+        "fullClearsRank": 292,
+        "speedRank": 46,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 190,
+            "fastest": "39:11"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 3,
+          "pastWeekClears": 12,
+          "fastestToday": "58:29",
+          "fastestThisWeek": "39:11"
+        },
+        "totalClearsCount": 191
+      },
+      {
+        "activityName": "Spire of Stars",
+        "fullClearsCount": 60,
+        "fastestTime": "21:52",
+        "averageTime": "133:23",
+        "sherpasCount": 32,
+        "kills": 16209,
+        "deaths": 782,
+        "assists": 12781,
+        "totalTime": "31:58:00",
+        "fullClearsRank": 472,
+        "speedRank": 197,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 60,
+            "fastest": "21:52"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 2,
+          "pastWeekClears": 2,
+          "fastestToday": "30:46",
+          "fastestThisWeek": "21:52"
+        },
+        "totalClearsCount": 61
+      },
+      {
+        "activityName": "Eater of Worlds",
+        "fullClearsCount": 91,
+        "fastestTime": "110:35",
+        "averageTime": "49:35",
+        "sherpasCount": 32,
+        "kills": 14414,
+        "deaths": 388,
+        "assists": 7100,
+        "totalTime": "22:33:00",
+        "fullClearsRank": 272,
+        "speedRank": 152,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 91,
+            "fastest": "110:35"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 2,
+          "pastWeekClears": 19,
+          "fastestToday": "106:34",
+          "fastestThisWeek": "110:35"
+        },
+        "totalClearsCount": 95
+      },
+      {
+        "activityName": "Leviathan",
+        "fullClearsCount": 27,
+        "fastestTime": "89:21",
+        "averageTime": "49:41",
+        "sherpasCount": 39,
+        "kills": 16296,
+        "deaths": 626,
+        "assists": 9147,
+        "totalTime": "132:47:00",
+        "fullClearsRank": 262,
+        "speedRank": 32,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 27,
+            "fastest": "89:21"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 2,
+          "pastWeekClears": 3,
+          "fastestToday": "115:05",
+          "fastestThisWeek": "89:21"
+        },
+        "totalClearsCount": 32
+      }
+    ],
+    "dungeons": [
+      {
+        "activityName": "Equilibrium",
+        "fullClearsCount": 143,
+        "fastestTime": "36:34",
+        "averageTime": "66:10",
+        "sherpasCount": 30,
+        "kills": 10773,
+        "deaths": 207,
+        "assists": 1946,
+        "totalTime": "259:01:00",
+        "fullClearsRank": 34,
+        "speedRank": 106,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 143,
+            "fastest": "36:34"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 2,
+          "pastWeekClears": 5,
+          "fastestToday": "32:44",
+          "fastestThisWeek": "36:34"
+        },
+        "totalClearsCount": 148
+      },
+      {
+        "activityName": "Sundered Doctrine",
+        "fullClearsCount": 173,
+        "fastestTime": "45:02",
+        "averageTime": "45:35",
+        "sherpasCount": 30,
+        "kills": 3103,
+        "deaths": 419,
+        "assists": 13681,
+        "totalTime": "147:04:00",
+        "fullClearsRank": 106,
+        "speedRank": 40,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 173,
+            "fastest": "45:02"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 2,
+          "pastWeekClears": 5,
+          "fastestToday": "55:16",
+          "fastestThisWeek": "45:02"
+        },
+        "totalClearsCount": 177
+      },
+      {
+        "activityName": "Vesper's Host",
+        "fullClearsCount": 135,
+        "fastestTime": "72:32",
+        "averageTime": "80:55",
+        "sherpasCount": 12,
+        "kills": 8299,
+        "deaths": 156,
+        "assists": 1616,
+        "totalTime": "277:07:00",
+        "fullClearsRank": 26,
+        "speedRank": 40,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 135,
+            "fastest": "72:32"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 4,
+          "pastWeekClears": 6,
+          "fastestToday": "38:29",
+          "fastestThisWeek": "72:32"
+        },
+        "totalClearsCount": 137
+      },
+      {
+        "activityName": "Warlord's Ruin",
+        "fullClearsCount": 122,
+        "fastestTime": "54:20",
+        "averageTime": "122:54",
+        "sherpasCount": 35,
+        "kills": 13230,
+        "deaths": 460,
+        "assists": 8035,
+        "totalTime": "99:00:00",
+        "fullClearsRank": 204,
+        "speedRank": 34,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 122,
+            "fastest": "54:20"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 3,
+          "pastWeekClears": 18,
+          "fastestToday": "89:35",
+          "fastestThisWeek": "54:20"
+        },
+        "totalClearsCount": 125
+      },
+      {
+        "activityName": "Ghosts of the Deep",
+        "fullClearsCount": 30,
+        "fastestTime": "118:03",
+        "averageTime": "36:28",
+        "sherpasCount": 44,
+        "kills": 11803,
+        "deaths": 650,
+        "assists": 6388,
+        "totalTime": "44:45:00",
+        "fullClearsRank": 324,
+        "speedRank": 79,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 30,
+            "fastest": "118:03"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 5,
+          "pastWeekClears": 3,
+          "fastestToday": "81:20",
+          "fastestThisWeek": "118:03"
+        },
+        "totalClearsCount": 30
+      },
+      {
+        "activityName": "Spire of the Watcher",
+        "fullClearsCount": 179,
+        "fastestTime": "71:01",
+        "averageTime": "56:58",
+        "sherpasCount": 0,
+        "kills": 13960,
+        "deaths": 733,
+        "assists": 11725,
+        "totalTime": "177:26:00",
+        "fullClearsRank": 489,
+        "speedRank": 43,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 179,
+            "fastest": "71:01"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 0,
+          "pastWeekClears": 13,
+          "fastestToday": "75:56",
+          "fastestThisWeek": "71:01"
+        },
+        "totalClearsCount": 183
+      },
+      {
+        "activityName": "Duality",
+        "fullClearsCount": 200,
+        "fastestTime": "52:16",
+        "averageTime": "150:42",
+        "sherpasCount": 5,
+        "kills": 4081,
+        "deaths": 652,
+        "assists": 13236,
+        "totalTime": "149:40:00",
+        "fullClearsRank": 482,
+        "speedRank": 5,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 200,
+            "fastest": "52:16"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 4,
+          "pastWeekClears": 8,
+          "fastestToday": "45:04",
+          "fastestThisWeek": "52:16"
+        },
+        "totalClearsCount": 201
+      },
+      {
+        "activityName": "Grasp of Avarice",
+        "fullClearsCount": 69,
+        "fastestTime": "75:38",
+        "averageTime": "149:19",
+        "sherpasCount": 50,
+        "kills": 5458,
+        "deaths": 365,
+        "assists": 5751,
+        "totalTime": "15:50:00",
+        "fullClearsRank": 43,
+        "speedRank": 149,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 69,
+            "fastest": "75:38"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 3,
+          "pastWeekClears": 2,
+          "fastestToday": "39:24",
+          "fastestThisWeek": "75:38"
+        },
+        "totalClearsCount": 73
+      },
+      {
+        "activityName": "Prophecy",
+        "fullClearsCount": 48,
+        "fastestTime": "100:31",
+        "averageTime": "95:36",
+        "sherpasCount": 49,
+        "kills": 7313,
+        "deaths": 566,
+        "assists": 2560,
+        "totalTime": "10:46:00",
+        "fullClearsRank": 361,
+        "speedRank": 21,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 48,
+            "fastest": "100:31"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 2,
+          "pastWeekClears": 16,
+          "fastestToday": "120:27",
+          "fastestThisWeek": "100:31"
+        },
+        "totalClearsCount": 48
+      },
+      {
+        "activityName": "Pit of Heresy",
+        "fullClearsCount": 145,
+        "fastestTime": "99:35",
+        "averageTime": "92:47",
+        "sherpasCount": 13,
+        "kills": 2572,
+        "deaths": 155,
+        "assists": 4064,
+        "totalTime": "199:33:00",
+        "fullClearsRank": 351,
+        "speedRank": 173,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 145,
+            "fastest": "99:35"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 0,
+          "pastWeekClears": 10,
+          "fastestToday": "87:16",
+          "fastestThisWeek": "99:35"
+        },
+        "totalClearsCount": 146
+      },
+      {
+        "activityName": "Shattered Throne",
+        "fullClearsCount": 94,
+        "fastestTime": "66:05",
+        "averageTime": "64:52",
+        "sherpasCount": 11,
+        "kills": 10225,
+        "deaths": 362,
+        "assists": 8708,
+        "totalTime": "176:26:00",
+        "fullClearsRank": 42,
+        "speedRank": 190,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 94,
+            "fastest": "66:05"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 2,
+          "pastWeekClears": 17,
+          "fastestToday": "38:11",
+          "fastestThisWeek": "66:05"
+        },
+        "totalClearsCount": 95
+      },
+      {
+        "activityName": "Presage",
+        "fullClearsCount": 155,
+        "fastestTime": "35:45",
+        "averageTime": "75:25",
+        "sherpasCount": 2,
+        "kills": 18732,
+        "deaths": 255,
+        "assists": 6546,
+        "totalTime": "263:31:00",
+        "fullClearsRank": 270,
+        "speedRank": 79,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 155,
+            "fastest": "35:45"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 3,
+          "pastWeekClears": 14,
+          "fastestToday": "31:48",
+          "fastestThisWeek": "35:45"
+        },
+        "totalClearsCount": 159
+      },
+      {
+        "activityName": "Harbinger",
+        "fullClearsCount": 34,
+        "fastestTime": "32:41",
+        "averageTime": "124:41",
+        "sherpasCount": 34,
+        "kills": 7919,
+        "deaths": 398,
+        "assists": 9593,
+        "totalTime": "176:37:00",
+        "fullClearsRank": 98,
+        "speedRank": 106,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 34,
+            "fastest": "32:41"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 2,
+          "pastWeekClears": 10,
+          "fastestToday": "117:52",
+          "fastestThisWeek": "32:41"
+        },
+        "totalClearsCount": 37
+      },
+      {
+        "activityName": "Zero Hour",
+        "fullClearsCount": 180,
+        "fastestTime": "22:43",
+        "averageTime": "51:27",
+        "sherpasCount": 48,
+        "kills": 11043,
+        "deaths": 567,
+        "assists": 10414,
+        "totalTime": "185:21:00",
+        "fullClearsRank": 363,
+        "speedRank": 128,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 180,
+            "fastest": "22:43"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 1,
+          "pastWeekClears": 10,
+          "fastestToday": "31:10",
+          "fastestThisWeek": "22:43"
+        },
+        "totalClearsCount": 181
+      },
+      {
+        "activityName": "The Whisper",
+        "fullClearsCount": 115,
+        "fastestTime": "118:32",
+        "averageTime": "107:51",
+        "sherpasCount": 44,
+        "kills": 14477,
+        "deaths": 509,
+        "assists": 11442,
+        "totalTime": "123:01:00",
+        "fullClearsRank": 346,
+        "speedRank": 166,
+        "modeBreakdown": {
+          "All Modes": {
+            "clears": 115,
+            "fastest": "118:32"
+          }
+        },
+        "recentStats": {
+          "pastDayClears": 3,
+          "pastWeekClears": 13,
+          "fastestToday": "57:50",
+          "fastestThisWeek": "118:32"
+        },
+        "totalClearsCount": 115
+      }
+    ]
+  }
+}

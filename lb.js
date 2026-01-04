@@ -1182,13 +1182,16 @@ let currentLeaderboardData = [];
 let currentPage = 1;
 let currentRowsPerPage = 10;
 
+// Leaderboard view mode (player or clan)
+let isClanMode = false;
+
 // Generate fabricated leaderboard data based on type
 function generateLeaderboardData(type, count = 100) {
   const data = [];
   
   for (let i = 1; i <= count; i++) {
     let statValue;
-    const playerName = `Player${i}`;
+    const entityName = isClanMode ? `Clan${i}` : `Player${i}`;
     
     switch (type) {
       case 'Full Clears':
@@ -1228,7 +1231,7 @@ function generateLeaderboardData(type, count = 100) {
     
     data.push({
       rank: i,
-      player: playerName,
+      player: entityName,
       statValue: statValue
     });
   }
@@ -1308,6 +1311,49 @@ function renderLeaderboard(data, rowsPerPage, page = 1) {
   
   // Update navigation buttons
   updatePaginationButtons(page, totalPages);
+}
+
+// Update UI based on view mode (player/clan)
+function updateViewMode() {
+  const searchInput = document.getElementById('leaderboardSearchInput');
+  const navbarSearchInput = document.getElementById('navbarSearchInput');
+  const entityHeader = document.getElementById('entityHeader');
+  
+  if (isClanMode) {
+    if (searchInput) {
+      searchInput.placeholder = 'Search for a clan...';
+    }
+    if (navbarSearchInput) {
+      navbarSearchInput.placeholder = 'Search for a clan...';
+    }
+    if (entityHeader) {
+      entityHeader.textContent = 'Clan';
+    }
+  } else {
+    if (searchInput) {
+      searchInput.placeholder = 'Search for a player...';
+    }
+    if (navbarSearchInput) {
+      navbarSearchInput.placeholder = 'Search for a player...';
+    }
+    if (entityHeader) {
+      entityHeader.textContent = 'Player';
+    }
+  }
+  
+  // Reload leaderboard with new mode
+  loadLeaderboard(true);
+}
+
+// Setup toggle event listener
+function setupLeaderboardToggle() {
+  const toggleCheckbox = document.getElementById('leaderboard-view-toggle');
+  if (toggleCheckbox) {
+    toggleCheckbox.addEventListener('change', () => {
+      isClanMode = toggleCheckbox.checked;
+      updateViewMode();
+    });
+  }
 }
 
 // Update pagination button states
@@ -1500,6 +1546,9 @@ updateFireteamSize();
 
 // Update leaderboard title after all initialization is complete
 updateLeaderboardTitle();
+
+// Setup leaderboard toggle
+setupLeaderboardToggle();
 
 // Load initial leaderboard data
 loadLeaderboard();

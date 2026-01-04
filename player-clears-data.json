@@ -1,0 +1,3143 @@
+{
+  "playerId": "123456789",
+  "activities": {
+    "raids": {
+      "The Desert Perpetual (Epic)": [
+        {
+          "clearId": "1",
+          "completed": true,
+          "date": "2025-09-24",
+          "time": "93:49"
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-11-04",
+          "time": "126:53"
+        },
+        {
+          "clearId": "3",
+          "completed": false,
+          "date": "2025-11-26",
+          "time": null
+        },
+        {
+          "clearId": "4",
+          "completed": true,
+          "date": "2025-09-06",
+          "time": "85:15"
+        },
+        {
+          "clearId": "5",
+          "completed": false,
+          "date": "2025-10-24",
+          "time": null
+        },
+        {
+          "clearId": "6",
+          "completed": true,
+          "date": "2025-11-02",
+          "time": "39:32"
+        },
+        {
+          "clearId": "7",
+          "completed": false,
+          "date": "2025-12-02",
+          "time": null
+        },
+        {
+          "clearId": "8",
+          "completed": false,
+          "date": "2025-09-30",
+          "time": null
+        },
+        {
+          "clearId": "9",
+          "completed": true,
+          "date": "2025-12-28",
+          "time": "93:23"
+        }
+      ],
+      "The Desert Perpetual": [
+        {
+          "clearId": "1",
+          "completed": true,
+          "date": "2025-10-14",
+          "time": "103:24"
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-11-05",
+          "time": "98:02"
+        },
+        {
+          "clearId": "3",
+          "completed": true,
+          "date": "2025-12-24",
+          "time": "131:51"
+        },
+        {
+          "clearId": "4",
+          "completed": true,
+          "date": "2026-01-02",
+          "time": "76:46"
+        },
+        {
+          "clearId": "5",
+          "completed": false,
+          "date": "2025-10-04",
+          "time": null
+        },
+        {
+          "clearId": "6",
+          "completed": true,
+          "date": "2025-09-19",
+          "time": "94:14"
+        },
+        {
+          "clearId": "7",
+          "completed": true,
+          "date": "2025-10-28",
+          "time": "66:04"
+        },
+        {
+          "clearId": "8",
+          "completed": false,
+          "date": "2025-10-10",
+          "time": null
+        },
+        {
+          "clearId": "9",
+          "completed": false,
+          "date": "2025-10-04",
+          "time": null
+        },
+        {
+          "clearId": "10",
+          "completed": true,
+          "date": "2025-09-14",
+          "time": "93:12"
+        },
+        {
+          "clearId": "11",
+          "completed": true,
+          "date": "2025-12-13",
+          "time": "148:09"
+        },
+        {
+          "clearId": "12",
+          "completed": true,
+          "date": "2025-12-30",
+          "time": "135:18"
+        },
+        {
+          "clearId": "13",
+          "completed": true,
+          "date": "2025-12-24",
+          "time": "67:49"
+        },
+        {
+          "clearId": "14",
+          "completed": true,
+          "date": "2025-12-17",
+          "time": "61:56"
+        },
+        {
+          "clearId": "15",
+          "completed": true,
+          "date": "2025-09-25",
+          "time": "94:20"
+        },
+        {
+          "clearId": "16",
+          "completed": true,
+          "date": "2025-12-21",
+          "time": "30:54"
+        },
+        {
+          "clearId": "17",
+          "completed": true,
+          "date": "2025-11-01",
+          "time": "74:55"
+        }
+      ],
+      "Salvation's Edge": [
+        {
+          "clearId": "1",
+          "completed": false,
+          "date": "2025-11-23",
+          "time": null
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-11-23",
+          "time": "45:11"
+        },
+        {
+          "clearId": "3",
+          "completed": false,
+          "date": "2025-11-06",
+          "time": null
+        },
+        {
+          "clearId": "4",
+          "completed": true,
+          "date": "2025-10-04",
+          "time": "92:33"
+        },
+        {
+          "clearId": "5",
+          "completed": true,
+          "date": "2025-10-23",
+          "time": "116:01"
+        },
+        {
+          "clearId": "6",
+          "completed": false,
+          "date": "2025-09-26",
+          "time": null
+        },
+        {
+          "clearId": "7",
+          "completed": false,
+          "date": "2025-10-19",
+          "time": null
+        },
+        {
+          "clearId": "8",
+          "completed": true,
+          "date": "2025-10-14",
+          "time": "25:20"
+        },
+        {
+          "clearId": "9",
+          "completed": true,
+          "date": "2025-09-20",
+          "time": "92:58"
+        },
+        {
+          "clearId": "10",
+          "completed": false,
+          "date": "2025-09-18",
+          "time": null
+        },
+        {
+          "clearId": "11",
+          "completed": false,
+          "date": "2025-10-14",
+          "time": null
+        },
+        {
+          "clearId": "12",
+          "completed": false,
+          "date": "2025-11-09",
+          "time": null
+        },
+        {
+          "clearId": "13",
+          "completed": false,
+          "date": "2025-12-24",
+          "time": null
+        },
+        {
+          "clearId": "14",
+          "completed": true,
+          "date": "2025-12-22",
+          "time": "30:39"
+        }
+      ],
+      "Crota's End": [
+        {
+          "clearId": "1",
+          "completed": true,
+          "date": "2025-11-10",
+          "time": "144:44"
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-09-10",
+          "time": "88:16"
+        },
+        {
+          "clearId": "3",
+          "completed": true,
+          "date": "2025-10-17",
+          "time": "115:06"
+        },
+        {
+          "clearId": "4",
+          "completed": false,
+          "date": "2025-12-06",
+          "time": null
+        },
+        {
+          "clearId": "5",
+          "completed": true,
+          "date": "2025-10-17",
+          "time": "43:55"
+        }
+      ],
+      "Root of Nightmares": [
+        {
+          "clearId": "1",
+          "completed": true,
+          "date": "2025-10-08",
+          "time": "102:47"
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-09-17",
+          "time": "133:28"
+        },
+        {
+          "clearId": "3",
+          "completed": false,
+          "date": "2025-09-14",
+          "time": null
+        },
+        {
+          "clearId": "4",
+          "completed": true,
+          "date": "2025-10-26",
+          "time": "133:38"
+        },
+        {
+          "clearId": "5",
+          "completed": true,
+          "date": "2025-12-18",
+          "time": "100:36"
+        },
+        {
+          "clearId": "6",
+          "completed": true,
+          "date": "2025-10-24",
+          "time": "132:47"
+        },
+        {
+          "clearId": "7",
+          "completed": true,
+          "date": "2025-10-17",
+          "time": "145:18"
+        },
+        {
+          "clearId": "8",
+          "completed": true,
+          "date": "2025-11-27",
+          "time": "86:55"
+        },
+        {
+          "clearId": "9",
+          "completed": true,
+          "date": "2025-11-17",
+          "time": "91:11"
+        },
+        {
+          "clearId": "10",
+          "completed": true,
+          "date": "2025-09-27",
+          "time": "124:12"
+        },
+        {
+          "clearId": "11",
+          "completed": true,
+          "date": "2025-10-28",
+          "time": "27:43"
+        },
+        {
+          "clearId": "12",
+          "completed": true,
+          "date": "2025-12-12",
+          "time": "120:31"
+        },
+        {
+          "clearId": "13",
+          "completed": false,
+          "date": "2025-11-10",
+          "time": null
+        },
+        {
+          "clearId": "14",
+          "completed": true,
+          "date": "2025-12-18",
+          "time": "103:37"
+        }
+      ],
+      "King's Fall": [
+        {
+          "clearId": "1",
+          "completed": true,
+          "date": "2025-11-17",
+          "time": "67:38"
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-12-20",
+          "time": "145:24"
+        },
+        {
+          "clearId": "3",
+          "completed": false,
+          "date": "2025-11-25",
+          "time": null
+        },
+        {
+          "clearId": "4",
+          "completed": true,
+          "date": "2025-12-13",
+          "time": "51:49"
+        },
+        {
+          "clearId": "5",
+          "completed": true,
+          "date": "2025-12-18",
+          "time": "150:13"
+        },
+        {
+          "clearId": "6",
+          "completed": false,
+          "date": "2025-09-18",
+          "time": null
+        },
+        {
+          "clearId": "7",
+          "completed": false,
+          "date": "2025-12-15",
+          "time": null
+        },
+        {
+          "clearId": "8",
+          "completed": true,
+          "date": "2025-12-30",
+          "time": "101:52"
+        },
+        {
+          "clearId": "9",
+          "completed": true,
+          "date": "2025-10-07",
+          "time": "33:21"
+        },
+        {
+          "clearId": "10",
+          "completed": true,
+          "date": "2025-11-27",
+          "time": "74:37"
+        },
+        {
+          "clearId": "11",
+          "completed": true,
+          "date": "2025-12-16",
+          "time": "105:06"
+        },
+        {
+          "clearId": "12",
+          "completed": true,
+          "date": "2025-10-10",
+          "time": "97:32"
+        },
+        {
+          "clearId": "13",
+          "completed": true,
+          "date": "2025-11-28",
+          "time": "71:16"
+        },
+        {
+          "clearId": "14",
+          "completed": true,
+          "date": "2025-09-09",
+          "time": "128:33"
+        },
+        {
+          "clearId": "15",
+          "completed": false,
+          "date": "2025-09-27",
+          "time": null
+        },
+        {
+          "clearId": "16",
+          "completed": true,
+          "date": "2025-09-12",
+          "time": "36:47"
+        },
+        {
+          "clearId": "17",
+          "completed": true,
+          "date": "2025-11-22",
+          "time": "72:33"
+        }
+      ],
+      "Vow of the Disciple": [
+        {
+          "clearId": "1",
+          "completed": true,
+          "date": "2025-09-22",
+          "time": "113:30"
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-11-04",
+          "time": "41:28"
+        },
+        {
+          "clearId": "3",
+          "completed": false,
+          "date": "2025-10-09",
+          "time": null
+        },
+        {
+          "clearId": "4",
+          "completed": true,
+          "date": "2025-09-11",
+          "time": "32:55"
+        },
+        {
+          "clearId": "5",
+          "completed": true,
+          "date": "2025-12-10",
+          "time": "68:35"
+        },
+        {
+          "clearId": "6",
+          "completed": false,
+          "date": "2025-12-06",
+          "time": null
+        },
+        {
+          "clearId": "7",
+          "completed": true,
+          "date": "2025-10-18",
+          "time": "86:10"
+        },
+        {
+          "clearId": "8",
+          "completed": true,
+          "date": "2025-11-12",
+          "time": "144:41"
+        },
+        {
+          "clearId": "9",
+          "completed": true,
+          "date": "2025-11-01",
+          "time": "131:02"
+        },
+        {
+          "clearId": "10",
+          "completed": true,
+          "date": "2025-10-02",
+          "time": "106:33"
+        }
+      ],
+      "Vault of Glass": [
+        {
+          "clearId": "1",
+          "completed": true,
+          "date": "2025-09-17",
+          "time": "21:27"
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-11-04",
+          "time": "123:54"
+        },
+        {
+          "clearId": "3",
+          "completed": false,
+          "date": "2025-11-20",
+          "time": null
+        },
+        {
+          "clearId": "4",
+          "completed": true,
+          "date": "2025-12-26",
+          "time": "133:45"
+        },
+        {
+          "clearId": "5",
+          "completed": true,
+          "date": "2025-09-20",
+          "time": "78:14"
+        },
+        {
+          "clearId": "6",
+          "completed": false,
+          "date": "2025-09-22",
+          "time": null
+        },
+        {
+          "clearId": "7",
+          "completed": true,
+          "date": "2025-10-30",
+          "time": "112:41"
+        },
+        {
+          "clearId": "8",
+          "completed": true,
+          "date": "2025-10-31",
+          "time": "148:05"
+        },
+        {
+          "clearId": "9",
+          "completed": true,
+          "date": "2025-12-31",
+          "time": "120:59"
+        },
+        {
+          "clearId": "10",
+          "completed": true,
+          "date": "2025-12-23",
+          "time": "90:13"
+        },
+        {
+          "clearId": "11",
+          "completed": true,
+          "date": "2025-12-21",
+          "time": "112:57"
+        },
+        {
+          "clearId": "12",
+          "completed": true,
+          "date": "2025-10-09",
+          "time": "49:54"
+        },
+        {
+          "clearId": "13",
+          "completed": true,
+          "date": "2025-12-31",
+          "time": "30:50"
+        },
+        {
+          "clearId": "14",
+          "completed": true,
+          "date": "2025-11-22",
+          "time": "65:43"
+        }
+      ],
+      "Deep Stone Crypt": [
+        {
+          "clearId": "1",
+          "completed": false,
+          "date": "2025-09-30",
+          "time": null
+        },
+        {
+          "clearId": "2",
+          "completed": false,
+          "date": "2025-12-17",
+          "time": null
+        },
+        {
+          "clearId": "3",
+          "completed": false,
+          "date": "2025-10-03",
+          "time": null
+        },
+        {
+          "clearId": "4",
+          "completed": true,
+          "date": "2025-11-10",
+          "time": "59:21"
+        },
+        {
+          "clearId": "5",
+          "completed": false,
+          "date": "2025-10-20",
+          "time": null
+        },
+        {
+          "clearId": "6",
+          "completed": true,
+          "date": "2025-09-30",
+          "time": "141:16"
+        },
+        {
+          "clearId": "7",
+          "completed": true,
+          "date": "2025-11-21",
+          "time": "81:18"
+        },
+        {
+          "clearId": "8",
+          "completed": false,
+          "date": "2025-11-16",
+          "time": null
+        },
+        {
+          "clearId": "9",
+          "completed": true,
+          "date": "2025-11-22",
+          "time": "55:20"
+        },
+        {
+          "clearId": "10",
+          "completed": true,
+          "date": "2025-11-15",
+          "time": "69:35"
+        },
+        {
+          "clearId": "11",
+          "completed": true,
+          "date": "2025-10-27",
+          "time": "64:13"
+        },
+        {
+          "clearId": "12",
+          "completed": false,
+          "date": "2025-12-20",
+          "time": null
+        },
+        {
+          "clearId": "13",
+          "completed": true,
+          "date": "2025-10-18",
+          "time": "74:12"
+        },
+        {
+          "clearId": "14",
+          "completed": false,
+          "date": "2025-10-04",
+          "time": null
+        },
+        {
+          "clearId": "15",
+          "completed": true,
+          "date": "2025-10-29",
+          "time": "88:51"
+        },
+        {
+          "clearId": "16",
+          "completed": false,
+          "date": "2025-11-27",
+          "time": null
+        },
+        {
+          "clearId": "17",
+          "completed": true,
+          "date": "2025-12-24",
+          "time": "83:22"
+        },
+        {
+          "clearId": "18",
+          "completed": true,
+          "date": "2025-10-26",
+          "time": "125:11"
+        },
+        {
+          "clearId": "19",
+          "completed": true,
+          "date": "2025-12-05",
+          "time": "126:50"
+        },
+        {
+          "clearId": "20",
+          "completed": true,
+          "date": "2025-12-25",
+          "time": "62:05"
+        },
+        {
+          "clearId": "21",
+          "completed": true,
+          "date": "2025-09-22",
+          "time": "41:25"
+        },
+        {
+          "clearId": "22",
+          "completed": true,
+          "date": "2025-11-04",
+          "time": "86:28"
+        }
+      ],
+      "Garden of Salvation": [
+        {
+          "clearId": "1",
+          "completed": false,
+          "date": "2025-12-17",
+          "time": null
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-10-13",
+          "time": "36:30"
+        },
+        {
+          "clearId": "3",
+          "completed": true,
+          "date": "2025-12-02",
+          "time": "43:24"
+        },
+        {
+          "clearId": "4",
+          "completed": false,
+          "date": "2025-11-30",
+          "time": null
+        },
+        {
+          "clearId": "5",
+          "completed": false,
+          "date": "2025-09-22",
+          "time": null
+        },
+        {
+          "clearId": "6",
+          "completed": true,
+          "date": "2025-11-18",
+          "time": "41:57"
+        },
+        {
+          "clearId": "7",
+          "completed": true,
+          "date": "2025-10-31",
+          "time": "140:12"
+        },
+        {
+          "clearId": "8",
+          "completed": true,
+          "date": "2025-10-05",
+          "time": "85:35"
+        },
+        {
+          "clearId": "9",
+          "completed": true,
+          "date": "2025-10-05",
+          "time": "59:13"
+        },
+        {
+          "clearId": "10",
+          "completed": true,
+          "date": "2025-11-04",
+          "time": "64:14"
+        },
+        {
+          "clearId": "11",
+          "completed": true,
+          "date": "2025-11-16",
+          "time": "82:20"
+        },
+        {
+          "clearId": "12",
+          "completed": true,
+          "date": "2025-09-30",
+          "time": "100:33"
+        },
+        {
+          "clearId": "13",
+          "completed": true,
+          "date": "2025-10-14",
+          "time": "24:37"
+        },
+        {
+          "clearId": "14",
+          "completed": true,
+          "date": "2025-10-23",
+          "time": "68:40"
+        },
+        {
+          "clearId": "15",
+          "completed": true,
+          "date": "2025-11-13",
+          "time": "82:44"
+        },
+        {
+          "clearId": "16",
+          "completed": false,
+          "date": "2025-11-14",
+          "time": null
+        },
+        {
+          "clearId": "17",
+          "completed": false,
+          "date": "2025-12-26",
+          "time": null
+        },
+        {
+          "clearId": "18",
+          "completed": true,
+          "date": "2025-09-21",
+          "time": "117:26"
+        },
+        {
+          "clearId": "19",
+          "completed": false,
+          "date": "2025-09-20",
+          "time": null
+        },
+        {
+          "clearId": "20",
+          "completed": true,
+          "date": "2025-09-17",
+          "time": "51:37"
+        }
+      ],
+      "Last Wish": [
+        {
+          "clearId": "1",
+          "completed": false,
+          "date": "2025-12-21",
+          "time": null
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-10-12",
+          "time": "123:31"
+        },
+        {
+          "clearId": "3",
+          "completed": false,
+          "date": "2025-12-22",
+          "time": null
+        },
+        {
+          "clearId": "4",
+          "completed": false,
+          "date": "2025-12-07",
+          "time": null
+        },
+        {
+          "clearId": "5",
+          "completed": true,
+          "date": "2025-12-10",
+          "time": "21:22"
+        },
+        {
+          "clearId": "6",
+          "completed": true,
+          "date": "2025-10-28",
+          "time": "28:13"
+        },
+        {
+          "clearId": "7",
+          "completed": true,
+          "date": "2025-12-08",
+          "time": "30:00"
+        },
+        {
+          "clearId": "8",
+          "completed": true,
+          "date": "2025-09-05",
+          "time": "148:48"
+        },
+        {
+          "clearId": "9",
+          "completed": true,
+          "date": "2025-09-18",
+          "time": "116:52"
+        },
+        {
+          "clearId": "10",
+          "completed": true,
+          "date": "2025-10-09",
+          "time": "131:56"
+        },
+        {
+          "clearId": "11",
+          "completed": true,
+          "date": "2025-09-11",
+          "time": "22:07"
+        },
+        {
+          "clearId": "12",
+          "completed": true,
+          "date": "2025-10-14",
+          "time": "39:02"
+        },
+        {
+          "clearId": "13",
+          "completed": true,
+          "date": "2025-12-15",
+          "time": "142:33"
+        },
+        {
+          "clearId": "14",
+          "completed": false,
+          "date": "2025-09-14",
+          "time": null
+        },
+        {
+          "clearId": "15",
+          "completed": true,
+          "date": "2025-09-09",
+          "time": "43:23"
+        }
+      ],
+      "Crown of Sorrow": [
+        {
+          "clearId": "1",
+          "completed": true,
+          "date": "2025-12-19",
+          "time": "147:27"
+        },
+        {
+          "clearId": "2",
+          "completed": false,
+          "date": "2025-10-13",
+          "time": null
+        },
+        {
+          "clearId": "3",
+          "completed": true,
+          "date": "2025-09-11",
+          "time": "27:30"
+        },
+        {
+          "clearId": "4",
+          "completed": true,
+          "date": "2025-12-02",
+          "time": "53:16"
+        },
+        {
+          "clearId": "5",
+          "completed": true,
+          "date": "2025-12-05",
+          "time": "98:23"
+        },
+        {
+          "clearId": "6",
+          "completed": true,
+          "date": "2025-10-03",
+          "time": "36:26"
+        },
+        {
+          "clearId": "7",
+          "completed": true,
+          "date": "2025-10-16",
+          "time": "43:13"
+        },
+        {
+          "clearId": "8",
+          "completed": false,
+          "date": "2025-09-13",
+          "time": null
+        },
+        {
+          "clearId": "9",
+          "completed": true,
+          "date": "2025-11-23",
+          "time": "125:51"
+        },
+        {
+          "clearId": "10",
+          "completed": true,
+          "date": "2025-11-15",
+          "time": "145:34"
+        },
+        {
+          "clearId": "11",
+          "completed": false,
+          "date": "2026-01-01",
+          "time": null
+        },
+        {
+          "clearId": "12",
+          "completed": true,
+          "date": "2025-11-06",
+          "time": "90:16"
+        },
+        {
+          "clearId": "13",
+          "completed": true,
+          "date": "2025-11-14",
+          "time": "48:10"
+        },
+        {
+          "clearId": "14",
+          "completed": true,
+          "date": "2025-10-07",
+          "time": "114:19"
+        },
+        {
+          "clearId": "15",
+          "completed": true,
+          "date": "2025-10-29",
+          "time": "100:38"
+        },
+        {
+          "clearId": "16",
+          "completed": true,
+          "date": "2025-12-20",
+          "time": "68:57"
+        },
+        {
+          "clearId": "17",
+          "completed": true,
+          "date": "2025-09-15",
+          "time": "47:19"
+        },
+        {
+          "clearId": "18",
+          "completed": true,
+          "date": "2025-09-18",
+          "time": "96:56"
+        },
+        {
+          "clearId": "19",
+          "completed": true,
+          "date": "2025-10-18",
+          "time": "32:38"
+        },
+        {
+          "clearId": "20",
+          "completed": false,
+          "date": "2025-09-10",
+          "time": null
+        },
+        {
+          "clearId": "21",
+          "completed": true,
+          "date": "2025-10-21",
+          "time": "37:47"
+        },
+        {
+          "clearId": "22",
+          "completed": true,
+          "date": "2025-09-16",
+          "time": "37:22"
+        },
+        {
+          "clearId": "23",
+          "completed": true,
+          "date": "2025-10-31",
+          "time": "140:23"
+        },
+        {
+          "clearId": "24",
+          "completed": true,
+          "date": "2025-11-11",
+          "time": "50:03"
+        },
+        {
+          "clearId": "25",
+          "completed": false,
+          "date": "2025-10-01",
+          "time": null
+        },
+        {
+          "clearId": "26",
+          "completed": true,
+          "date": "2025-11-15",
+          "time": "114:32"
+        },
+        {
+          "clearId": "27",
+          "completed": true,
+          "date": "2025-11-11",
+          "time": "51:40"
+        },
+        {
+          "clearId": "28",
+          "completed": false,
+          "date": "2025-09-11",
+          "time": null
+        },
+        {
+          "clearId": "29",
+          "completed": true,
+          "date": "2025-11-12",
+          "time": "111:04"
+        },
+        {
+          "clearId": "30",
+          "completed": false,
+          "date": "2026-01-02",
+          "time": null
+        }
+      ],
+      "Scourge of the Past": [
+        {
+          "clearId": "1",
+          "completed": true,
+          "date": "2025-11-15",
+          "time": "147:02"
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-09-17",
+          "time": "85:22"
+        },
+        {
+          "clearId": "3",
+          "completed": true,
+          "date": "2025-12-24",
+          "time": "145:54"
+        },
+        {
+          "clearId": "4",
+          "completed": true,
+          "date": "2025-09-05",
+          "time": "66:26"
+        },
+        {
+          "clearId": "5",
+          "completed": false,
+          "date": "2025-12-17",
+          "time": null
+        },
+        {
+          "clearId": "6",
+          "completed": true,
+          "date": "2025-09-25",
+          "time": "76:55"
+        },
+        {
+          "clearId": "7",
+          "completed": false,
+          "date": "2025-12-23",
+          "time": null
+        },
+        {
+          "clearId": "8",
+          "completed": false,
+          "date": "2025-11-25",
+          "time": null
+        },
+        {
+          "clearId": "9",
+          "completed": false,
+          "date": "2025-09-13",
+          "time": null
+        },
+        {
+          "clearId": "10",
+          "completed": true,
+          "date": "2025-11-25",
+          "time": "70:32"
+        },
+        {
+          "clearId": "11",
+          "completed": true,
+          "date": "2025-09-27",
+          "time": "28:30"
+        }
+      ],
+      "Spire of Stars": [
+        {
+          "clearId": "1",
+          "completed": true,
+          "date": "2025-11-06",
+          "time": "81:28"
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-11-25",
+          "time": "94:01"
+        },
+        {
+          "clearId": "3",
+          "completed": true,
+          "date": "2025-12-13",
+          "time": "147:29"
+        },
+        {
+          "clearId": "4",
+          "completed": true,
+          "date": "2025-10-25",
+          "time": "66:12"
+        },
+        {
+          "clearId": "5",
+          "completed": true,
+          "date": "2025-09-14",
+          "time": "77:50"
+        },
+        {
+          "clearId": "6",
+          "completed": false,
+          "date": "2025-12-09",
+          "time": null
+        },
+        {
+          "clearId": "7",
+          "completed": false,
+          "date": "2025-12-08",
+          "time": null
+        },
+        {
+          "clearId": "8",
+          "completed": true,
+          "date": "2025-10-15",
+          "time": "91:01"
+        },
+        {
+          "clearId": "9",
+          "completed": true,
+          "date": "2025-10-12",
+          "time": "35:23"
+        }
+      ],
+      "Eater of Worlds": [
+        {
+          "clearId": "1",
+          "completed": true,
+          "date": "2025-12-28",
+          "time": "84:33"
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-12-02",
+          "time": "21:40"
+        },
+        {
+          "clearId": "3",
+          "completed": true,
+          "date": "2025-10-18",
+          "time": "22:30"
+        },
+        {
+          "clearId": "4",
+          "completed": true,
+          "date": "2025-12-04",
+          "time": "112:08"
+        },
+        {
+          "clearId": "5",
+          "completed": false,
+          "date": "2025-10-05",
+          "time": null
+        },
+        {
+          "clearId": "6",
+          "completed": true,
+          "date": "2025-10-17",
+          "time": "30:51"
+        },
+        {
+          "clearId": "7",
+          "completed": true,
+          "date": "2025-12-13",
+          "time": "129:45"
+        },
+        {
+          "clearId": "8",
+          "completed": true,
+          "date": "2025-12-28",
+          "time": "116:56"
+        },
+        {
+          "clearId": "9",
+          "completed": true,
+          "date": "2025-12-07",
+          "time": "137:31"
+        },
+        {
+          "clearId": "10",
+          "completed": true,
+          "date": "2025-12-04",
+          "time": "97:09"
+        },
+        {
+          "clearId": "11",
+          "completed": true,
+          "date": "2025-12-11",
+          "time": "57:19"
+        },
+        {
+          "clearId": "12",
+          "completed": true,
+          "date": "2025-12-18",
+          "time": "145:10"
+        },
+        {
+          "clearId": "13",
+          "completed": true,
+          "date": "2025-12-10",
+          "time": "62:23"
+        },
+        {
+          "clearId": "14",
+          "completed": true,
+          "date": "2025-09-07",
+          "time": "141:59"
+        },
+        {
+          "clearId": "15",
+          "completed": true,
+          "date": "2025-12-27",
+          "time": "43:03"
+        },
+        {
+          "clearId": "16",
+          "completed": true,
+          "date": "2025-11-17",
+          "time": "142:20"
+        },
+        {
+          "clearId": "17",
+          "completed": true,
+          "date": "2025-09-22",
+          "time": "40:33"
+        },
+        {
+          "clearId": "18",
+          "completed": true,
+          "date": "2025-12-30",
+          "time": "126:27"
+        },
+        {
+          "clearId": "19",
+          "completed": true,
+          "date": "2025-10-05",
+          "time": "143:12"
+        },
+        {
+          "clearId": "20",
+          "completed": true,
+          "date": "2025-09-14",
+          "time": "116:14"
+        }
+      ],
+      "Leviathan": [
+        {
+          "clearId": "1",
+          "completed": true,
+          "date": "2025-11-09",
+          "time": "139:00"
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-11-03",
+          "time": "136:40"
+        },
+        {
+          "clearId": "3",
+          "completed": true,
+          "date": "2025-12-04",
+          "time": "66:55"
+        },
+        {
+          "clearId": "4",
+          "completed": true,
+          "date": "2025-11-16",
+          "time": "47:17"
+        },
+        {
+          "clearId": "5",
+          "completed": true,
+          "date": "2025-09-12",
+          "time": "35:31"
+        },
+        {
+          "clearId": "6",
+          "completed": false,
+          "date": "2025-11-08",
+          "time": null
+        },
+        {
+          "clearId": "7",
+          "completed": true,
+          "date": "2025-11-20",
+          "time": "49:54"
+        }
+      ]
+    },
+    "dungeons": {
+      "Equilibrium": [
+        {
+          "clearId": "1",
+          "completed": true,
+          "date": "2025-12-12",
+          "time": "102:24"
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-12-25",
+          "time": "50:30"
+        },
+        {
+          "clearId": "3",
+          "completed": false,
+          "date": "2025-12-22",
+          "time": null
+        },
+        {
+          "clearId": "4",
+          "completed": true,
+          "date": "2025-10-10",
+          "time": "45:45"
+        },
+        {
+          "clearId": "5",
+          "completed": true,
+          "date": "2025-11-01",
+          "time": "102:22"
+        },
+        {
+          "clearId": "6",
+          "completed": false,
+          "date": "2025-12-26",
+          "time": null
+        },
+        {
+          "clearId": "7",
+          "completed": true,
+          "date": "2025-12-26",
+          "time": "92:08"
+        },
+        {
+          "clearId": "8",
+          "completed": true,
+          "date": "2025-10-15",
+          "time": "58:19"
+        },
+        {
+          "clearId": "9",
+          "completed": true,
+          "date": "2025-12-25",
+          "time": "48:24"
+        },
+        {
+          "clearId": "10",
+          "completed": true,
+          "date": "2025-10-15",
+          "time": "62:20"
+        },
+        {
+          "clearId": "11",
+          "completed": false,
+          "date": "2025-10-27",
+          "time": null
+        },
+        {
+          "clearId": "12",
+          "completed": true,
+          "date": "2026-01-02",
+          "time": "56:27"
+        },
+        {
+          "clearId": "13",
+          "completed": true,
+          "date": "2025-11-09",
+          "time": "54:49"
+        },
+        {
+          "clearId": "14",
+          "completed": true,
+          "date": "2025-11-04",
+          "time": "92:34"
+        },
+        {
+          "clearId": "15",
+          "completed": true,
+          "date": "2025-10-25",
+          "time": "69:49"
+        },
+        {
+          "clearId": "16",
+          "completed": true,
+          "date": "2025-11-18",
+          "time": "108:21"
+        },
+        {
+          "clearId": "17",
+          "completed": true,
+          "date": "2025-09-21",
+          "time": "121:42"
+        },
+        {
+          "clearId": "18",
+          "completed": true,
+          "date": "2025-09-09",
+          "time": "96:09"
+        },
+        {
+          "clearId": "19",
+          "completed": true,
+          "date": "2025-11-07",
+          "time": "80:13"
+        },
+        {
+          "clearId": "20",
+          "completed": false,
+          "date": "2025-09-09",
+          "time": null
+        },
+        {
+          "clearId": "21",
+          "completed": true,
+          "date": "2025-12-08",
+          "time": "49:05"
+        }
+      ],
+      "Sundered Doctrine": [
+        {
+          "clearId": "1",
+          "completed": false,
+          "date": "2025-09-14",
+          "time": null
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-11-29",
+          "time": "59:44"
+        },
+        {
+          "clearId": "3",
+          "completed": true,
+          "date": "2025-09-05",
+          "time": "39:16"
+        },
+        {
+          "clearId": "4",
+          "completed": true,
+          "date": "2025-12-28",
+          "time": "140:55"
+        },
+        {
+          "clearId": "5",
+          "completed": true,
+          "date": "2025-11-08",
+          "time": "72:14"
+        },
+        {
+          "clearId": "6",
+          "completed": true,
+          "date": "2025-12-18",
+          "time": "66:35"
+        },
+        {
+          "clearId": "7",
+          "completed": true,
+          "date": "2025-09-08",
+          "time": "123:50"
+        },
+        {
+          "clearId": "8",
+          "completed": true,
+          "date": "2025-09-09",
+          "time": "82:55"
+        },
+        {
+          "clearId": "9",
+          "completed": true,
+          "date": "2025-11-09",
+          "time": "142:10"
+        },
+        {
+          "clearId": "10",
+          "completed": true,
+          "date": "2025-12-26",
+          "time": "108:43"
+        },
+        {
+          "clearId": "11",
+          "completed": true,
+          "date": "2025-12-26",
+          "time": "78:21"
+        },
+        {
+          "clearId": "12",
+          "completed": true,
+          "date": "2025-11-28",
+          "time": "82:46"
+        },
+        {
+          "clearId": "13",
+          "completed": true,
+          "date": "2026-01-02",
+          "time": "117:36"
+        }
+      ],
+      "Vesper's Host": [
+        {
+          "clearId": "1",
+          "completed": false,
+          "date": "2025-09-05",
+          "time": null
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-10-14",
+          "time": "133:42"
+        },
+        {
+          "clearId": "3",
+          "completed": true,
+          "date": "2025-11-19",
+          "time": "39:42"
+        },
+        {
+          "clearId": "4",
+          "completed": false,
+          "date": "2025-11-11",
+          "time": null
+        },
+        {
+          "clearId": "5",
+          "completed": true,
+          "date": "2025-11-09",
+          "time": "106:34"
+        }
+      ],
+      "Warlord's Ruin": [
+        {
+          "clearId": "1",
+          "completed": true,
+          "date": "2025-09-12",
+          "time": "71:06"
+        },
+        {
+          "clearId": "2",
+          "completed": false,
+          "date": "2026-01-03",
+          "time": null
+        },
+        {
+          "clearId": "3",
+          "completed": true,
+          "date": "2025-12-23",
+          "time": "128:19"
+        },
+        {
+          "clearId": "4",
+          "completed": true,
+          "date": "2025-11-18",
+          "time": "73:06"
+        },
+        {
+          "clearId": "5",
+          "completed": true,
+          "date": "2025-09-23",
+          "time": "87:25"
+        },
+        {
+          "clearId": "6",
+          "completed": true,
+          "date": "2026-01-02",
+          "time": "33:44"
+        },
+        {
+          "clearId": "7",
+          "completed": true,
+          "date": "2025-11-30",
+          "time": "127:14"
+        },
+        {
+          "clearId": "8",
+          "completed": true,
+          "date": "2025-12-14",
+          "time": "97:55"
+        },
+        {
+          "clearId": "9",
+          "completed": false,
+          "date": "2025-10-06",
+          "time": null
+        },
+        {
+          "clearId": "10",
+          "completed": false,
+          "date": "2025-11-05",
+          "time": null
+        },
+        {
+          "clearId": "11",
+          "completed": true,
+          "date": "2025-12-28",
+          "time": "114:49"
+        },
+        {
+          "clearId": "12",
+          "completed": true,
+          "date": "2025-12-07",
+          "time": "117:12"
+        },
+        {
+          "clearId": "13",
+          "completed": true,
+          "date": "2025-09-21",
+          "time": "91:23"
+        },
+        {
+          "clearId": "14",
+          "completed": true,
+          "date": "2025-10-07",
+          "time": "100:16"
+        },
+        {
+          "clearId": "15",
+          "completed": true,
+          "date": "2025-12-27",
+          "time": "148:10"
+        },
+        {
+          "clearId": "16",
+          "completed": true,
+          "date": "2025-12-24",
+          "time": "20:36"
+        },
+        {
+          "clearId": "17",
+          "completed": false,
+          "date": "2025-11-27",
+          "time": null
+        },
+        {
+          "clearId": "18",
+          "completed": false,
+          "date": "2025-10-24",
+          "time": null
+        },
+        {
+          "clearId": "19",
+          "completed": true,
+          "date": "2025-11-24",
+          "time": "76:00"
+        },
+        {
+          "clearId": "20",
+          "completed": true,
+          "date": "2025-12-29",
+          "time": "148:17"
+        },
+        {
+          "clearId": "21",
+          "completed": true,
+          "date": "2025-12-06",
+          "time": "91:50"
+        },
+        {
+          "clearId": "22",
+          "completed": true,
+          "date": "2025-10-23",
+          "time": "95:54"
+        },
+        {
+          "clearId": "23",
+          "completed": false,
+          "date": "2025-11-09",
+          "time": null
+        }
+      ],
+      "Ghosts of the Deep": [
+        {
+          "clearId": "1",
+          "completed": false,
+          "date": "2025-09-29",
+          "time": null
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-12-14",
+          "time": "88:09"
+        },
+        {
+          "clearId": "3",
+          "completed": true,
+          "date": "2025-10-29",
+          "time": "127:27"
+        },
+        {
+          "clearId": "4",
+          "completed": false,
+          "date": "2025-11-15",
+          "time": null
+        },
+        {
+          "clearId": "5",
+          "completed": true,
+          "date": "2025-10-08",
+          "time": "141:02"
+        },
+        {
+          "clearId": "6",
+          "completed": true,
+          "date": "2025-09-26",
+          "time": "28:57"
+        },
+        {
+          "clearId": "7",
+          "completed": true,
+          "date": "2025-11-04",
+          "time": "73:56"
+        },
+        {
+          "clearId": "8",
+          "completed": true,
+          "date": "2025-12-03",
+          "time": "76:43"
+        },
+        {
+          "clearId": "9",
+          "completed": true,
+          "date": "2025-09-21",
+          "time": "114:34"
+        },
+        {
+          "clearId": "10",
+          "completed": true,
+          "date": "2025-10-22",
+          "time": "83:48"
+        },
+        {
+          "clearId": "11",
+          "completed": false,
+          "date": "2025-09-29",
+          "time": null
+        },
+        {
+          "clearId": "12",
+          "completed": true,
+          "date": "2025-09-26",
+          "time": "61:40"
+        },
+        {
+          "clearId": "13",
+          "completed": true,
+          "date": "2025-09-20",
+          "time": "102:54"
+        },
+        {
+          "clearId": "14",
+          "completed": true,
+          "date": "2025-12-01",
+          "time": "132:14"
+        },
+        {
+          "clearId": "15",
+          "completed": true,
+          "date": "2025-09-15",
+          "time": "138:36"
+        },
+        {
+          "clearId": "16",
+          "completed": false,
+          "date": "2025-09-15",
+          "time": null
+        },
+        {
+          "clearId": "17",
+          "completed": true,
+          "date": "2025-12-21",
+          "time": "119:02"
+        },
+        {
+          "clearId": "18",
+          "completed": true,
+          "date": "2025-09-25",
+          "time": "73:50"
+        },
+        {
+          "clearId": "19",
+          "completed": true,
+          "date": "2025-11-25",
+          "time": "94:54"
+        }
+      ],
+      "Spire of the Watcher": [
+        {
+          "clearId": "1",
+          "completed": true,
+          "date": "2025-10-28",
+          "time": "35:12"
+        },
+        {
+          "clearId": "2",
+          "completed": false,
+          "date": "2025-11-21",
+          "time": null
+        },
+        {
+          "clearId": "3",
+          "completed": true,
+          "date": "2025-11-01",
+          "time": "39:58"
+        },
+        {
+          "clearId": "4",
+          "completed": true,
+          "date": "2025-12-23",
+          "time": "44:23"
+        },
+        {
+          "clearId": "5",
+          "completed": true,
+          "date": "2025-11-22",
+          "time": "93:44"
+        },
+        {
+          "clearId": "6",
+          "completed": true,
+          "date": "2025-12-06",
+          "time": "143:07"
+        },
+        {
+          "clearId": "7",
+          "completed": false,
+          "date": "2025-09-23",
+          "time": null
+        },
+        {
+          "clearId": "8",
+          "completed": false,
+          "date": "2025-12-21",
+          "time": null
+        },
+        {
+          "clearId": "9",
+          "completed": true,
+          "date": "2025-11-21",
+          "time": "80:09"
+        },
+        {
+          "clearId": "10",
+          "completed": true,
+          "date": "2025-12-26",
+          "time": "90:06"
+        },
+        {
+          "clearId": "11",
+          "completed": true,
+          "date": "2025-12-05",
+          "time": "54:09"
+        },
+        {
+          "clearId": "12",
+          "completed": true,
+          "date": "2025-10-04",
+          "time": "98:18"
+        },
+        {
+          "clearId": "13",
+          "completed": true,
+          "date": "2025-12-17",
+          "time": "21:51"
+        },
+        {
+          "clearId": "14",
+          "completed": true,
+          "date": "2025-09-21",
+          "time": "81:38"
+        },
+        {
+          "clearId": "15",
+          "completed": true,
+          "date": "2025-10-22",
+          "time": "98:29"
+        },
+        {
+          "clearId": "16",
+          "completed": true,
+          "date": "2025-10-13",
+          "time": "74:24"
+        },
+        {
+          "clearId": "17",
+          "completed": true,
+          "date": "2025-10-03",
+          "time": "67:24"
+        },
+        {
+          "clearId": "18",
+          "completed": true,
+          "date": "2025-10-18",
+          "time": "80:09"
+        },
+        {
+          "clearId": "19",
+          "completed": true,
+          "date": "2025-10-22",
+          "time": "106:31"
+        },
+        {
+          "clearId": "20",
+          "completed": false,
+          "date": "2025-11-20",
+          "time": null
+        },
+        {
+          "clearId": "21",
+          "completed": true,
+          "date": "2025-11-26",
+          "time": "144:31"
+        },
+        {
+          "clearId": "22",
+          "completed": true,
+          "date": "2025-09-08",
+          "time": "55:01"
+        },
+        {
+          "clearId": "23",
+          "completed": true,
+          "date": "2025-12-09",
+          "time": "21:16"
+        },
+        {
+          "clearId": "24",
+          "completed": false,
+          "date": "2025-11-15",
+          "time": null
+        },
+        {
+          "clearId": "25",
+          "completed": true,
+          "date": "2025-09-16",
+          "time": "53:37"
+        },
+        {
+          "clearId": "26",
+          "completed": true,
+          "date": "2025-09-22",
+          "time": "89:59"
+        },
+        {
+          "clearId": "27",
+          "completed": true,
+          "date": "2025-10-21",
+          "time": "135:38"
+        }
+      ],
+      "Duality": [
+        {
+          "clearId": "1",
+          "completed": true,
+          "date": "2025-10-06",
+          "time": "93:24"
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-11-16",
+          "time": "136:20"
+        },
+        {
+          "clearId": "3",
+          "completed": true,
+          "date": "2025-12-11",
+          "time": "55:56"
+        },
+        {
+          "clearId": "4",
+          "completed": true,
+          "date": "2025-10-02",
+          "time": "43:20"
+        },
+        {
+          "clearId": "5",
+          "completed": true,
+          "date": "2025-09-29",
+          "time": "34:45"
+        },
+        {
+          "clearId": "6",
+          "completed": true,
+          "date": "2025-11-21",
+          "time": "85:00"
+        },
+        {
+          "clearId": "7",
+          "completed": false,
+          "date": "2025-11-03",
+          "time": null
+        },
+        {
+          "clearId": "8",
+          "completed": true,
+          "date": "2025-12-22",
+          "time": "54:27"
+        },
+        {
+          "clearId": "9",
+          "completed": true,
+          "date": "2025-12-20",
+          "time": "64:47"
+        },
+        {
+          "clearId": "10",
+          "completed": true,
+          "date": "2025-11-25",
+          "time": "43:20"
+        },
+        {
+          "clearId": "11",
+          "completed": true,
+          "date": "2025-10-11",
+          "time": "130:46"
+        },
+        {
+          "clearId": "12",
+          "completed": true,
+          "date": "2025-10-21",
+          "time": "67:42"
+        },
+        {
+          "clearId": "13",
+          "completed": true,
+          "date": "2025-11-22",
+          "time": "100:50"
+        },
+        {
+          "clearId": "14",
+          "completed": true,
+          "date": "2025-09-20",
+          "time": "58:45"
+        },
+        {
+          "clearId": "15",
+          "completed": true,
+          "date": "2025-11-19",
+          "time": "68:19"
+        },
+        {
+          "clearId": "16",
+          "completed": true,
+          "date": "2025-11-26",
+          "time": "68:34"
+        }
+      ],
+      "Grasp of Avarice": [
+        {
+          "clearId": "1",
+          "completed": true,
+          "date": "2025-09-30",
+          "time": "106:20"
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-10-11",
+          "time": "21:54"
+        },
+        {
+          "clearId": "3",
+          "completed": false,
+          "date": "2025-09-25",
+          "time": null
+        },
+        {
+          "clearId": "4",
+          "completed": false,
+          "date": "2025-11-08",
+          "time": null
+        },
+        {
+          "clearId": "5",
+          "completed": true,
+          "date": "2025-11-04",
+          "time": "30:56"
+        },
+        {
+          "clearId": "6",
+          "completed": true,
+          "date": "2025-11-10",
+          "time": "66:30"
+        },
+        {
+          "clearId": "7",
+          "completed": false,
+          "date": "2025-10-08",
+          "time": null
+        },
+        {
+          "clearId": "8",
+          "completed": true,
+          "date": "2025-10-01",
+          "time": "43:59"
+        },
+        {
+          "clearId": "9",
+          "completed": true,
+          "date": "2025-09-18",
+          "time": "102:16"
+        },
+        {
+          "clearId": "10",
+          "completed": false,
+          "date": "2025-12-06",
+          "time": null
+        },
+        {
+          "clearId": "11",
+          "completed": false,
+          "date": "2025-10-13",
+          "time": null
+        },
+        {
+          "clearId": "12",
+          "completed": true,
+          "date": "2025-12-03",
+          "time": "28:27"
+        },
+        {
+          "clearId": "13",
+          "completed": true,
+          "date": "2025-12-16",
+          "time": "113:55"
+        },
+        {
+          "clearId": "14",
+          "completed": true,
+          "date": "2025-12-18",
+          "time": "37:24"
+        },
+        {
+          "clearId": "15",
+          "completed": true,
+          "date": "2025-11-12",
+          "time": "67:57"
+        },
+        {
+          "clearId": "16",
+          "completed": false,
+          "date": "2025-12-21",
+          "time": null
+        },
+        {
+          "clearId": "17",
+          "completed": true,
+          "date": "2025-09-06",
+          "time": "54:33"
+        },
+        {
+          "clearId": "18",
+          "completed": true,
+          "date": "2025-12-24",
+          "time": "36:34"
+        },
+        {
+          "clearId": "19",
+          "completed": true,
+          "date": "2025-10-23",
+          "time": "45:36"
+        },
+        {
+          "clearId": "20",
+          "completed": true,
+          "date": "2025-12-12",
+          "time": "149:18"
+        },
+        {
+          "clearId": "21",
+          "completed": true,
+          "date": "2025-10-07",
+          "time": "58:39"
+        },
+        {
+          "clearId": "22",
+          "completed": true,
+          "date": "2025-12-28",
+          "time": "114:42"
+        },
+        {
+          "clearId": "23",
+          "completed": false,
+          "date": "2025-12-17",
+          "time": null
+        },
+        {
+          "clearId": "24",
+          "completed": true,
+          "date": "2025-11-16",
+          "time": "97:48"
+        },
+        {
+          "clearId": "25",
+          "completed": true,
+          "date": "2025-10-23",
+          "time": "74:28"
+        },
+        {
+          "clearId": "26",
+          "completed": true,
+          "date": "2025-12-08",
+          "time": "103:45"
+        },
+        {
+          "clearId": "27",
+          "completed": false,
+          "date": "2025-10-12",
+          "time": null
+        }
+      ],
+      "Prophecy": [
+        {
+          "clearId": "1",
+          "completed": true,
+          "date": "2025-10-21",
+          "time": "73:37"
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-10-26",
+          "time": "85:08"
+        },
+        {
+          "clearId": "3",
+          "completed": true,
+          "date": "2025-09-23",
+          "time": "128:15"
+        },
+        {
+          "clearId": "4",
+          "completed": true,
+          "date": "2025-09-10",
+          "time": "102:06"
+        },
+        {
+          "clearId": "5",
+          "completed": true,
+          "date": "2025-09-17",
+          "time": "20:46"
+        },
+        {
+          "clearId": "6",
+          "completed": true,
+          "date": "2025-12-18",
+          "time": "143:27"
+        },
+        {
+          "clearId": "7",
+          "completed": false,
+          "date": "2025-11-06",
+          "time": null
+        },
+        {
+          "clearId": "8",
+          "completed": true,
+          "date": "2025-10-13",
+          "time": "65:51"
+        },
+        {
+          "clearId": "9",
+          "completed": true,
+          "date": "2025-09-16",
+          "time": "87:39"
+        },
+        {
+          "clearId": "10",
+          "completed": true,
+          "date": "2025-12-10",
+          "time": "30:07"
+        },
+        {
+          "clearId": "11",
+          "completed": false,
+          "date": "2025-12-28",
+          "time": null
+        },
+        {
+          "clearId": "12",
+          "completed": false,
+          "date": "2025-10-25",
+          "time": null
+        },
+        {
+          "clearId": "13",
+          "completed": true,
+          "date": "2025-10-28",
+          "time": "109:08"
+        },
+        {
+          "clearId": "14",
+          "completed": false,
+          "date": "2025-11-23",
+          "time": null
+        },
+        {
+          "clearId": "15",
+          "completed": false,
+          "date": "2025-10-09",
+          "time": null
+        }
+      ],
+      "Pit of Heresy": [
+        {
+          "clearId": "1",
+          "completed": true,
+          "date": "2025-12-24",
+          "time": "119:34"
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-12-07",
+          "time": "118:40"
+        },
+        {
+          "clearId": "3",
+          "completed": true,
+          "date": "2025-12-31",
+          "time": "30:23"
+        },
+        {
+          "clearId": "4",
+          "completed": true,
+          "date": "2025-12-29",
+          "time": "102:07"
+        },
+        {
+          "clearId": "5",
+          "completed": false,
+          "date": "2025-10-23",
+          "time": null
+        },
+        {
+          "clearId": "6",
+          "completed": true,
+          "date": "2025-12-01",
+          "time": "21:38"
+        },
+        {
+          "clearId": "7",
+          "completed": true,
+          "date": "2025-11-17",
+          "time": "138:50"
+        },
+        {
+          "clearId": "8",
+          "completed": false,
+          "date": "2025-09-13",
+          "time": null
+        },
+        {
+          "clearId": "9",
+          "completed": false,
+          "date": "2025-11-06",
+          "time": null
+        },
+        {
+          "clearId": "10",
+          "completed": false,
+          "date": "2025-11-06",
+          "time": null
+        },
+        {
+          "clearId": "11",
+          "completed": false,
+          "date": "2025-10-14",
+          "time": null
+        },
+        {
+          "clearId": "12",
+          "completed": true,
+          "date": "2025-12-15",
+          "time": "42:21"
+        },
+        {
+          "clearId": "13",
+          "completed": true,
+          "date": "2025-12-26",
+          "time": "99:49"
+        },
+        {
+          "clearId": "14",
+          "completed": true,
+          "date": "2025-11-27",
+          "time": "121:33"
+        },
+        {
+          "clearId": "15",
+          "completed": false,
+          "date": "2025-10-28",
+          "time": null
+        }
+      ],
+      "Shattered Throne": [
+        {
+          "clearId": "1",
+          "completed": true,
+          "date": "2025-10-10",
+          "time": "128:55"
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-12-15",
+          "time": "115:36"
+        },
+        {
+          "clearId": "3",
+          "completed": true,
+          "date": "2025-09-24",
+          "time": "126:12"
+        },
+        {
+          "clearId": "4",
+          "completed": true,
+          "date": "2025-12-06",
+          "time": "115:14"
+        },
+        {
+          "clearId": "5",
+          "completed": true,
+          "date": "2025-10-26",
+          "time": "62:41"
+        },
+        {
+          "clearId": "6",
+          "completed": true,
+          "date": "2026-01-01",
+          "time": "59:17"
+        },
+        {
+          "clearId": "7",
+          "completed": false,
+          "date": "2025-12-14",
+          "time": null
+        },
+        {
+          "clearId": "8",
+          "completed": true,
+          "date": "2025-11-03",
+          "time": "81:17"
+        },
+        {
+          "clearId": "9",
+          "completed": false,
+          "date": "2025-10-22",
+          "time": null
+        },
+        {
+          "clearId": "10",
+          "completed": false,
+          "date": "2025-10-17",
+          "time": null
+        },
+        {
+          "clearId": "11",
+          "completed": true,
+          "date": "2025-12-18",
+          "time": "44:31"
+        },
+        {
+          "clearId": "12",
+          "completed": false,
+          "date": "2025-11-04",
+          "time": null
+        },
+        {
+          "clearId": "13",
+          "completed": true,
+          "date": "2025-09-11",
+          "time": "27:29"
+        },
+        {
+          "clearId": "14",
+          "completed": false,
+          "date": "2025-09-09",
+          "time": null
+        }
+      ],
+      "Presage": [
+        {
+          "clearId": "1",
+          "completed": true,
+          "date": "2025-11-04",
+          "time": "45:53"
+        },
+        {
+          "clearId": "2",
+          "completed": false,
+          "date": "2025-11-05",
+          "time": null
+        },
+        {
+          "clearId": "3",
+          "completed": true,
+          "date": "2026-01-03",
+          "time": "100:56"
+        },
+        {
+          "clearId": "4",
+          "completed": false,
+          "date": "2025-10-27",
+          "time": null
+        },
+        {
+          "clearId": "5",
+          "completed": true,
+          "date": "2025-12-16",
+          "time": "141:15"
+        },
+        {
+          "clearId": "6",
+          "completed": true,
+          "date": "2025-09-14",
+          "time": "93:32"
+        },
+        {
+          "clearId": "7",
+          "completed": false,
+          "date": "2025-12-09",
+          "time": null
+        },
+        {
+          "clearId": "8",
+          "completed": true,
+          "date": "2025-09-26",
+          "time": "84:58"
+        },
+        {
+          "clearId": "9",
+          "completed": true,
+          "date": "2025-10-30",
+          "time": "113:28"
+        },
+        {
+          "clearId": "10",
+          "completed": true,
+          "date": "2025-12-08",
+          "time": "144:03"
+        },
+        {
+          "clearId": "11",
+          "completed": false,
+          "date": "2025-09-06",
+          "time": null
+        },
+        {
+          "clearId": "12",
+          "completed": false,
+          "date": "2025-10-04",
+          "time": null
+        },
+        {
+          "clearId": "13",
+          "completed": true,
+          "date": "2025-11-22",
+          "time": "95:28"
+        },
+        {
+          "clearId": "14",
+          "completed": false,
+          "date": "2025-12-02",
+          "time": null
+        },
+        {
+          "clearId": "15",
+          "completed": true,
+          "date": "2025-11-29",
+          "time": "23:24"
+        },
+        {
+          "clearId": "16",
+          "completed": false,
+          "date": "2025-09-10",
+          "time": null
+        },
+        {
+          "clearId": "17",
+          "completed": true,
+          "date": "2025-12-07",
+          "time": "46:39"
+        },
+        {
+          "clearId": "18",
+          "completed": false,
+          "date": "2025-12-29",
+          "time": null
+        },
+        {
+          "clearId": "19",
+          "completed": true,
+          "date": "2025-10-19",
+          "time": "94:13"
+        },
+        {
+          "clearId": "20",
+          "completed": true,
+          "date": "2025-10-29",
+          "time": "146:48"
+        }
+      ],
+      "Harbinger": [
+        {
+          "clearId": "1",
+          "completed": false,
+          "date": "2025-11-08",
+          "time": null
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-12-26",
+          "time": "89:29"
+        },
+        {
+          "clearId": "3",
+          "completed": true,
+          "date": "2025-10-25",
+          "time": "60:14"
+        },
+        {
+          "clearId": "4",
+          "completed": true,
+          "date": "2025-09-10",
+          "time": "42:49"
+        },
+        {
+          "clearId": "5",
+          "completed": true,
+          "date": "2025-12-13",
+          "time": "148:34"
+        },
+        {
+          "clearId": "6",
+          "completed": true,
+          "date": "2025-11-28",
+          "time": "62:21"
+        },
+        {
+          "clearId": "7",
+          "completed": false,
+          "date": "2025-10-18",
+          "time": null
+        },
+        {
+          "clearId": "8",
+          "completed": true,
+          "date": "2025-10-01",
+          "time": "122:49"
+        },
+        {
+          "clearId": "9",
+          "completed": false,
+          "date": "2025-11-05",
+          "time": null
+        },
+        {
+          "clearId": "10",
+          "completed": true,
+          "date": "2025-12-10",
+          "time": "26:07"
+        },
+        {
+          "clearId": "11",
+          "completed": false,
+          "date": "2025-09-18",
+          "time": null
+        },
+        {
+          "clearId": "12",
+          "completed": true,
+          "date": "2025-11-04",
+          "time": "130:41"
+        },
+        {
+          "clearId": "13",
+          "completed": true,
+          "date": "2025-12-12",
+          "time": "51:25"
+        },
+        {
+          "clearId": "14",
+          "completed": true,
+          "date": "2025-09-24",
+          "time": "139:15"
+        },
+        {
+          "clearId": "15",
+          "completed": true,
+          "date": "2025-10-10",
+          "time": "107:43"
+        },
+        {
+          "clearId": "16",
+          "completed": true,
+          "date": "2025-12-02",
+          "time": "132:08"
+        },
+        {
+          "clearId": "17",
+          "completed": false,
+          "date": "2025-12-03",
+          "time": null
+        },
+        {
+          "clearId": "18",
+          "completed": true,
+          "date": "2025-12-21",
+          "time": "104:21"
+        },
+        {
+          "clearId": "19",
+          "completed": true,
+          "date": "2025-11-30",
+          "time": "128:50"
+        },
+        {
+          "clearId": "20",
+          "completed": true,
+          "date": "2025-10-09",
+          "time": "123:13"
+        }
+      ],
+      "Zero Hour": [
+        {
+          "clearId": "1",
+          "completed": true,
+          "date": "2025-12-25",
+          "time": "133:39"
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-09-22",
+          "time": "105:55"
+        },
+        {
+          "clearId": "3",
+          "completed": true,
+          "date": "2025-11-27",
+          "time": "105:48"
+        },
+        {
+          "clearId": "4",
+          "completed": true,
+          "date": "2025-10-09",
+          "time": "52:06"
+        },
+        {
+          "clearId": "5",
+          "completed": true,
+          "date": "2025-09-06",
+          "time": "124:48"
+        },
+        {
+          "clearId": "6",
+          "completed": true,
+          "date": "2025-09-09",
+          "time": "121:00"
+        },
+        {
+          "clearId": "7",
+          "completed": true,
+          "date": "2025-09-10",
+          "time": "90:09"
+        },
+        {
+          "clearId": "8",
+          "completed": true,
+          "date": "2025-09-21",
+          "time": "34:54"
+        },
+        {
+          "clearId": "9",
+          "completed": true,
+          "date": "2025-10-18",
+          "time": "84:30"
+        },
+        {
+          "clearId": "10",
+          "completed": true,
+          "date": "2025-12-10",
+          "time": "75:11"
+        },
+        {
+          "clearId": "11",
+          "completed": true,
+          "date": "2025-12-15",
+          "time": "116:56"
+        },
+        {
+          "clearId": "12",
+          "completed": true,
+          "date": "2025-11-23",
+          "time": "119:00"
+        },
+        {
+          "clearId": "13",
+          "completed": true,
+          "date": "2025-09-05",
+          "time": "53:39"
+        },
+        {
+          "clearId": "14",
+          "completed": false,
+          "date": "2025-12-06",
+          "time": null
+        },
+        {
+          "clearId": "15",
+          "completed": true,
+          "date": "2025-11-10",
+          "time": "90:31"
+        },
+        {
+          "clearId": "16",
+          "completed": true,
+          "date": "2025-09-15",
+          "time": "51:48"
+        },
+        {
+          "clearId": "17",
+          "completed": true,
+          "date": "2025-12-30",
+          "time": "90:07"
+        },
+        {
+          "clearId": "18",
+          "completed": false,
+          "date": "2025-10-28",
+          "time": null
+        }
+      ],
+      "The Whisper": [
+        {
+          "clearId": "1",
+          "completed": true,
+          "date": "2025-09-10",
+          "time": "57:14"
+        },
+        {
+          "clearId": "2",
+          "completed": true,
+          "date": "2025-10-12",
+          "time": "35:29"
+        },
+        {
+          "clearId": "3",
+          "completed": false,
+          "date": "2025-10-12",
+          "time": null
+        },
+        {
+          "clearId": "4",
+          "completed": true,
+          "date": "2025-12-01",
+          "time": "113:08"
+        },
+        {
+          "clearId": "5",
+          "completed": true,
+          "date": "2025-09-24",
+          "time": "111:47"
+        },
+        {
+          "clearId": "6",
+          "completed": false,
+          "date": "2025-10-12",
+          "time": null
+        },
+        {
+          "clearId": "7",
+          "completed": true,
+          "date": "2025-12-06",
+          "time": "105:41"
+        },
+        {
+          "clearId": "8",
+          "completed": true,
+          "date": "2025-12-03",
+          "time": "106:08"
+        },
+        {
+          "clearId": "9",
+          "completed": false,
+          "date": "2025-11-25",
+          "time": null
+        },
+        {
+          "clearId": "10",
+          "completed": true,
+          "date": "2025-09-28",
+          "time": "21:27"
+        },
+        {
+          "clearId": "11",
+          "completed": true,
+          "date": "2025-09-12",
+          "time": "113:10"
+        },
+        {
+          "clearId": "12",
+          "completed": true,
+          "date": "2025-11-02",
+          "time": "84:52"
+        },
+        {
+          "clearId": "13",
+          "completed": false,
+          "date": "2025-10-06",
+          "time": null
+        },
+        {
+          "clearId": "14",
+          "completed": true,
+          "date": "2025-12-24",
+          "time": "136:58"
+        },
+        {
+          "clearId": "15",
+          "completed": true,
+          "date": "2025-10-14",
+          "time": "22:46"
+        },
+        {
+          "clearId": "16",
+          "completed": false,
+          "date": "2025-11-20",
+          "time": null
+        },
+        {
+          "clearId": "17",
+          "completed": true,
+          "date": "2025-11-17",
+          "time": "147:25"
+        },
+        {
+          "clearId": "18",
+          "completed": true,
+          "date": "2025-09-06",
+          "time": "49:57"
+        },
+        {
+          "clearId": "19",
+          "completed": true,
+          "date": "2025-11-15",
+          "time": "89:44"
+        },
+        {
+          "clearId": "20",
+          "completed": true,
+          "date": "2025-10-01",
+          "time": "32:25"
+        },
+        {
+          "clearId": "21",
+          "completed": true,
+          "date": "2025-11-04",
+          "time": "29:28"
+        },
+        {
+          "clearId": "22",
+          "completed": true,
+          "date": "2025-11-11",
+          "time": "54:38"
+        },
+        {
+          "clearId": "23",
+          "completed": true,
+          "date": "2025-12-29",
+          "time": "22:59"
+        },
+        {
+          "clearId": "24",
+          "completed": false,
+          "date": "2025-12-04",
+          "time": null
+        },
+        {
+          "clearId": "25",
+          "completed": true,
+          "date": "2025-12-19",
+          "time": "50:41"
+        }
+      ]
+    }
+  }
+}
