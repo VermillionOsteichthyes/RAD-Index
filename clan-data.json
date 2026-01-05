@@ -1,0 +1,190 @@
+{
+  "clanId": "987654321",
+  "name": "The Ascendant Guard",
+  "motto": "Guardians of the Light, Conquerors of the Dark",
+  "emblemUrl": "https://www.bungie.net/common/destiny2_content/icons/2295f4a5fad58e1a65d1c147865a2600.jpg",
+  "dateFounded": "Sep 2014",
+  "ranks": {
+    "clearsRank": 12,
+    "speedRank": 5,
+    "sherpaRank": 3,
+    "radTimeRank": 8,
+    "clearsCount": 15420,
+    "speedTime": "45m 12s",
+    "sherpaCount": 2500,
+    "radTime": "12y 5m"
+  },
+  "members": [
+    {
+      "name": "Vanguard_Actual",
+      "emblemUrl": "https://www.bungie.net/common/destiny2_content/icons/04bb6081a489522f05394b275c5333b2.jpg",
+      "fullClears": 1500,
+      "overallSpeed": "35m 10s",
+      "sherpas": 500,
+      "radTime": "5000h",
+      "joinDate": "2014-09-09"
+    },
+    {
+      "name": "Caydes_Chicken",
+      "emblemUrl": "https://www.bungie.net/common/destiny2_content/icons/04bb6081a489522f05394b275c5333b2.jpg",
+      "fullClears": 1200,
+      "overallSpeed": "40m 15s",
+      "sherpas": 200,
+      "radTime": "4500h",
+      "joinDate": "2015-05-12"
+    },
+    {
+      "name": "Ikora_Ray_Tracing",
+      "emblemUrl": "https://www.bungie.net/common/destiny2_content/icons/04bb6081a489522f05394b275c5333b2.jpg",
+      "fullClears": 900,
+      "overallSpeed": "42m 00s",
+      "sherpas": 800,
+      "radTime": "3000h",
+      "joinDate": "2016-11-20"
+    },
+    {
+      "name": "Zavala_Knits",
+      "emblemUrl": "https://www.bungie.net/common/destiny2_content/icons/04bb6081a489522f05394b275c5333b2.jpg",
+      "fullClears": 1100,
+      "overallSpeed": "45m 30s",
+      "sherpas": 150,
+      "radTime": "3200h",
+      "joinDate": "2017-02-14"
+    },
+    {
+      "name": "Eris_Morn_Coffee",
+      "emblemUrl": "https://www.bungie.net/common/destiny2_content/icons/04bb6081a489522f05394b275c5333b2.jpg",
+      "fullClears": 850,
+      "overallSpeed": "48m 10s",
+      "sherpas": 50,
+      "radTime": "2800h",
+      "joinDate": "2018-08-01"
+    },
+    {
+      "name": "Drifter_Coin",
+      "emblemUrl": "https://www.bungie.net/common/destiny2_content/icons/04bb6081a489522f05394b275c5333b2.jpg",
+      "fullClears": 700,
+      "overallSpeed": "38m 20s",
+      "sherpas": 20,
+      "radTime": "2500h",
+      "joinDate": "2019-01-15"
+    },
+    {
+      "name": "Shaxx_Screams",
+      "emblemUrl": "https://www.bungie.net/common/destiny2_content/icons/04bb6081a489522f05394b275c5333b2.jpg",
+      "fullClears": 1600,
+      "overallSpeed": "32m 45s",
+      "sherpas": 100,
+      "radTime": "5500h",
+      "joinDate": "2014-10-01"
+    },
+    {
+      "name": "Saint_14_Pigeon",
+      "emblemUrl": "https://www.bungie.net/common/destiny2_content/icons/04bb6081a489522f05394b275c5333b2.jpg",
+      "fullClears": 400,
+      "overallSpeed": "50m 00s",
+      "sherpas": 600,
+      "radTime": "1500h",
+      "joinDate": "2020-03-10"
+    },
+    {
+      "name": "Osiris_Reflections",
+      "emblemUrl": "https://www.bungie.net/common/destiny2_content/icons/04bb6081a489522f05394b275c5333b2.jpg",
+      "fullClears": 1300,
+      "overallSpeed": "36m 15s",
+      "sherpas": 300,
+      "radTime": "4800h",
+      "joinDate": "2015-12-25"
+    },
+    {
+      "name": "Mara_Sov_Bathwater",
+      "emblemUrl": "https://www.bungie.net/common/destiny2_content/icons/04bb6081a489522f05394b275c5333b2.jpg",
+      "fullClears": 200,
+      "overallSpeed": "60m 00s",
+      "sherpas": 10,
+      "radTime": "500h",
+      "joinDate": "2023-06-01"
+    }
+  ],
+  "activities": {
+    "raids": [
+      {
+        "activityName": "The Desert Perpetual",
+        "fullClearsCount": 5000,
+        "fastestTime": "35:00",
+        "averageTime": "55:00",
+        "sherpasCount": 1200,
+        "kills": 500000,
+        "deaths": 10000,
+        "assists": 450000,
+        "totalTime": "10000:00:00",
+        "fullClearsRank": 5,
+        "speedRank": 8,
+        "modeBreakdown": {
+            "Normal": {"clears": 4000, "fastest": "40:00"},
+            "Master": {"clears": 1000, "fastest": "50:00"}
+        },
+        "recentStats": {
+          "pastDayClears": 50,
+          "pastWeekClears": 200,
+          "fastestToday": "45:00",
+          "fastestThisWeek": "35:00"
+        }
+      },
+      {
+        "activityName": "Salvation's Edge",
+        "fullClearsCount": 4500,
+        "fastestTime": "42:00",
+        "averageTime": "60:00",
+        "sherpasCount": 800,
+        "kills": 400000,
+        "deaths": 8000,
+        "assists": 350000,
+        "totalTime": "9000:00:00",
+        "fullClearsRank": 7,
+        "speedRank": 12
+      },
+      {
+        "activityName": "Last Wish",
+        "fullClearsCount": 6000,
+        "fastestTime": "25:00",
+        "averageTime": "45:00",
+        "sherpasCount": 1500,
+        "kills": 600000,
+        "deaths": 12000,
+        "assists": 500000,
+        "totalTime": "12000:00:00",
+        "fullClearsRank": 3,
+        "speedRank": 4
+      }
+    ],
+    "dungeons": [
+      {
+        "activityName": "Warlord's Ruin",
+        "fullClearsCount": 3000,
+        "fastestTime": "20:00",
+        "averageTime": "35:00",
+        "sherpasCount": 600,
+        "kills": 200000,
+        "deaths": 4000,
+        "assists": 150000,
+        "totalTime": "5000:00:00",
+        "fullClearsRank": 10,
+        "speedRank": 6
+      },
+      {
+        "activityName": "Grasp of Avarice",
+        "fullClearsCount": 4000,
+        "fastestTime": "18:00",
+        "averageTime": "30:00",
+        "sherpasCount": 900,
+        "kills": 250000,
+        "deaths": 3000,
+        "assists": 180000,
+        "totalTime": "6000:00:00",
+        "fullClearsRank": 6,
+        "speedRank": 3
+      }
+    ]
+  }
+}

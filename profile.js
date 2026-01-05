@@ -62,7 +62,7 @@ function updateRankBubbles(isDungeons) {
   const speedRankBubble = document.getElementById('speedRankBubble');
   const clearsRankLabel = document.getElementById('clearsRankLabel');
   const speedRankLabel = document.getElementById('speedRankLabel');
-  const clearsRankTime = document.getElementById('clearsRankTime');
+  const clearsRankCount = document.getElementById('clearsRankCount');
   const speedRankTime = document.getElementById('speedRankTime');
   
   if (isDungeons) {
@@ -74,7 +74,7 @@ function updateRankBubbles(isDungeons) {
     
     clearsRankLabel.textContent = `Clears Rank #${clearsRank}`;
     speedRankLabel.textContent = `Speed Rank #${speedRank}`;
-    clearsRankTime.textContent = `${fullClearsCount.toLocaleString()}`;
+    clearsRankCount.textContent = `${fullClearsCount.toLocaleString()}`;
     speedRankTime.textContent = speedTime;
     
     clearsRankBubble.className = `rank-bubble ${getRankColorClass(clearsRank)}`;
@@ -88,7 +88,7 @@ function updateRankBubbles(isDungeons) {
     
     clearsRankLabel.textContent = `Clears Rank #${clearsRank}`;
     speedRankLabel.textContent = `Speed Rank #${speedRank}`;
-    clearsRankTime.textContent = `${fullClearsCount.toLocaleString()}`;
+    clearsRankCount.textContent = `${fullClearsCount.toLocaleString()}`;
     speedRankTime.textContent = speedTime;
     
     clearsRankBubble.className = `rank-bubble ${getRankColorClass(clearsRank)}`;
